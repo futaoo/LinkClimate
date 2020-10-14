@@ -1,2 +1,0 @@
-a = [{'mindate': '1874-10-13', 'maxdate': '2020-10-08', 'name': 'Average Temperature.', 'datacoverage': 1, 'id': 'TAVG'}, {'mindate': '1763-01-01', 'maxdate': '2020-10-09', 'name': 'Maximum temperature', 'datacoverage': 1, 'id': 'TMAX'}, {'mindate': '1763-01-01', 'maxdate': '2020-10-09', 'name': 'Minimum temperature', 'datacoverage': 1, 'id': 'TMIN'}]
-print(a['id'])

@@ -179,7 +179,7 @@ def tripledefine_station(locationid, **jsondata):
     if not jsondata['elevation']:
         jsondata['elevation'] = ''
     set_triples = [
-        (uri_station, ca_property.islocatedIn, uri_location),
+        (uri_station, ca_property.isLocatedIn, uri_location),
         (uri_station, ca_property.hasId, Literal(jsondata['id'])),
         (uri_station, ca_property.hasName, Literal(jsondata['name'])),
         (uri_station, ca_property.hasLatitude, Literal(jsondata['latitude'], datatype=XSD.float)),

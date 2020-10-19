@@ -1,10 +1,9 @@
 from dotmap import DotMap
-from rdflib import URIRef, BNode, Literal
+from rdflib import URIRef, Literal
 from rdflib.namespace import CSVW, DC, DCAT, DCTERMS, DOAP, FOAF, ODRL2, ORG, OWL, \
                            PROF, PROV, RDF, RDFS, SDO, SH, SKOS, SOSA, SSN, TIME, \
                            VOID, XMLNS, XSD
 from rdflib import Namespace
-from rdflib import Graph
 from dotmap import DotMap
 import concurrent.futures
 import itertools
@@ -239,7 +238,7 @@ class CANOAAV2:
 
     def create_triples_from_json(self, json_results, mapflag, **mapfunctionparas):
         with concurrent.futures.ThreadPoolExecutor() as executor:
-            triple_groups = list(executor.map(lambda x: self.map_to_triples[mapflag](mapfunctionparas, **x), json_results['results']))
+            triple_groups = list(executor.map(lambda x: self.map_to_triples[mapflag](**mapfunctionparas, **x), json_results))
         triples = list(itertools.chain.from_iterable(triple_groups))
         return triples
   

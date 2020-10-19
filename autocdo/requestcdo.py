@@ -24,12 +24,12 @@ class Requestcdo:
 
 
 
-def main(): 
-    base_url = "https://www.ncdc.noaa.gov/cdo-web/api/v2"
-    token = "dSPQHTPvpQGQvrlBvaCaxwbFjLSFANlC"
-    requestcdo = Requestcdo(base_url=base_url,token=token)
-    datacategories = requestcdo.requestfrom(endpoint="/stations", datasetid='GHCND', locationid='FIPS:UK')
-    print(datacategories)
+# def main(): 
+#     base_url = "https://www.ncdc.noaa.gov/cdo-web/api/v2"
+#     token = "dSPQHTPvpQGQvrlBvaCaxwbFjLSFANlC"
+#     requestcdo = Requestcdo(base_url=base_url,token=token)
+#     datacategories = requestcdo.requestfrom(endpoint="/stations", datasetid='GHCND', locationid='FIPS:UK')
+#     print(datacategories)
 
     # kwargs = [{'datacategoryid':datacategory} for datacategory in \
     #     list(map(lambda rec: rec.get('id'), datacategories))]
@@ -38,11 +38,10 @@ def main():
     # with concurrent.futures.ThreadPoolExecutor() as executor:
     #     executor.map(lambda x: requestcdo.requestfrom(endpoint='/stations', datasetid='GHCND', locationid='FIPS:UK', **x), kwargs)
 
-
     
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
 
 
     

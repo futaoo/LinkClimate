@@ -1,5 +1,6 @@
 from dotmap import DotMap
 from rdflib import URIRef, Literal
+from rdflib.graph import Graph
 from rdflib.namespace import CSVW, DC, DCAT, DCTERMS, DOAP, FOAF, ODRL2, ORG, OWL, \
                            PROF, PROV, RDF, RDFS, SDO, SH, SKOS, SOSA, SSN, TIME, \
                            VOID, XMLNS, XSD
@@ -28,6 +29,13 @@ class CANOAAV2:
         self.prefix_str.resource_station = 'http://jresearch.ucd.ie/climate-kg/resource/station/'
         self.prefix_str.resource_observation = 'http://jresearch.ucd.ie/climate-kg/resource/observation/'
         self.prefix_str.resource_result = 'http://jresearch.ucd.ie/climate-kg/resource/result/'
+
+        self.graph = Graph()
+        self.graph.bind('rdfs', RDFS)
+        self.graph.bind('rdf', RDF)
+        self.graph.bind('ca_class', self.prefix.ca_class)
+        self.graph.bind('ca_property', self.prefix.ca_property)
+        self.graph.bind('sosa', SOSA)
 
 
         self.classes = DotMap()
@@ -220,10 +228,10 @@ class CANOAAV2:
         ]
         return triples
 
-    def map_to_triples_data(self, datasetid, stationid, **jsondata):
+    def map_to_triples_data(self, datasetid, **jsondata):
         uri_observation = URIRef(self.prefix_str.resource_observation + '{}_{}_at_{}'.format(jsondata['datatype'], jsondata['station'], jsondata['date']))
         uri_dataset = URIRef(self.prefix_str.resource_dataset + datasetid)
-        uri_station = URIRef(self.prefix_str.resource_station + stationid)
+        uri_station = URIRef(self.prefix_str.resource_station + jsondata['station'])
         uri_datatype = URIRef(self.prefix_str.resource_datatype + jsondata['datatype'])
 
         triples = [

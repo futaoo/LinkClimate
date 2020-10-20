@@ -1,0 +1,2244 @@
+@prefix ca_property: <http://jresearch.ucd.ie/climate-kg/ca/property/> .
+@prefix sosa: <http://www.w3.org/ns/ssn/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003005_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003005_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003005_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "15"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003005_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "56"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003005_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003026_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "64"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003026_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "15"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003026_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "69"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003026_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "33"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003026_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "5"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003026_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003162_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "36"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003162_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "5"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003162_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "10"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003162_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "79"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003162_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "46"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003162_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "25"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003302_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003302> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003302_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003302> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "10"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003302_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003302> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "5"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003302_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003302> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "61"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003302_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003302> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "48"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003302_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003302> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003808_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "13"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003808_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "13"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003808_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "10"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003808_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "36"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003808_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "91"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000003808_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000070765_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000070765> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "43"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000070765_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000070765> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "36"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000070765_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000070765> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "10"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000070765_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000070765> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "142"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000070765_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000070765> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "3"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UK000070765_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000070765> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003017_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "23"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003017_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "28"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003017_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "10"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003017_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "117"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003017_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "5"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003017_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003066_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "71"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003066_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "23"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003066_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "3"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003066_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "127"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003066_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "18"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003066_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003091_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003091> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "33"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003091_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003091> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "23"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003091_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003091> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "5"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003091_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003091> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "89"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003091_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003091> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "5"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003091_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003091> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003100_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "41"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003100_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "5"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003100_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "76"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003100_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "46"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003100_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003100_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003171_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "8"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003171_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "3"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003171_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003171_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "79"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003171_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "30"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003171_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "28"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003257_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "13"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003257_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "10"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003257_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003257_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "30"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003257_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "86"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003257_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "38"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003414_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "3"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003414_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "23"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003414_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003414_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "33"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003414_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "5"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003414_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "5"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003502_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "15"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003502_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "13"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003502_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "46"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003502_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "33"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003502_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "23"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003502_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003590_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003590_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "15"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003590_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "5"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003590_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "33"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003590_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "91"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003590_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "20"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003740_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "10"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003740_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "3"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003740_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003740_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "28"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003740_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "5"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003740_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "5"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003772_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "18"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003772_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003772_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003772_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "38"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003772_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "23"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003772_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "18"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003862_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "5"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003862_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003862_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003862_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "48"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003862_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "3"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003862_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003917_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003917> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "15"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003917_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003917> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "15"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003917_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003917> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "15"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003917_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003917> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "15"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003917_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003917> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKM00003917_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003917> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "8"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKW00035047_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "5"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKW00035047_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "86"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKW00035047_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "0"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKW00035047_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "135"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKW00035047_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "89"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/PRCP_GHCND:UKW00035047_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/PRCP> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "56"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/SNWD_GHCND:UK000003808_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/SNWD> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "10"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003005_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "72"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003005_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "77"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003005_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "74"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003005_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "90"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003005_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "82"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003005_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "75"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003026_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "93"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003026_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "85"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003026_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "97"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003026_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "106"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003026_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "104"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003026_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "88"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003162_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "80"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003162_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "76"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003162_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "75"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003162_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "63"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003162_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "91"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003162_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "68"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003302_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003302> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "118"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003302_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003302> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "118"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003302_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003302> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "119"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003302_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003302> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "111"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003302_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003302> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "118"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003302_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003302> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "101"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003808_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "116"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003808_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "111"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003808_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "112"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003808_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "109"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003808_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "112"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000003808_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "91"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000070765_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000070765> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "79"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000070765_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000070765> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "88"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000070765_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000070765> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "84"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000070765_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000070765> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "98"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000070765_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000070765> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "98"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UK000070765_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000070765> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "83"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003017_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "81"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003017_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "91"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003017_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "83"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003017_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "97"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003017_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "93"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003017_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "84"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003066_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "90"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003066_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "94"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003066_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "87"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003066_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "97"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003066_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "104"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003066_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "79"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003091_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003091> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "81"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003091_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003091> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "90"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003091_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003091> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "79"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003091_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003091> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "96"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003091_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003091> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "100"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003091_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003091> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "81"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003100_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "105"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003100_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "101"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003100_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "105"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003100_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "105"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003100_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "104"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003100_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "99"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003171_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "93"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003171_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "99"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003171_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "82"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003171_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "97"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003171_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "106"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003171_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "86"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003257_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "92"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003257_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "95"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003257_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "93"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003257_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "85"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003257_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "93"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003257_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "81"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003334_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003334> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "96"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003334_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003334> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "83"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003334_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003334> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "92"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003334_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003334> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "81"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003334_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003334> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "103"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003334_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003334> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "82"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003414_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "96"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003414_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "97"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003414_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "92"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003414_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "92"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003414_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "102"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003414_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "82"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003502_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "107"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003502_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "107"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003502_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "102"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003502_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "103"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003502_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "109"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003502_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "90"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003590_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "77"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003590_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "89"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003590_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "89"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003590_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "89"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003590_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "93"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003590_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "88"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003740_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "87"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003740_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "99"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003740_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "90"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003740_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "80"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003740_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "96"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003740_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "84"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003772_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "94"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003772_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "107"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003772_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "97"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003772_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "93"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003772_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "106"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003772_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "97"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003862_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "88"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003862_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "100"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003862_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "96"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003862_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "93"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003862_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "111"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003862_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "94"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003917_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003917> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "97"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003917_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003917> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "99"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003917_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003917> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "99"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003917_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003917> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "88"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003917_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003917> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "107"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKM00003917_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003917> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "84"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKW00035047_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "91"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKW00035047_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "104"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKW00035047_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "102"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKW00035047_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "99"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKW00035047_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "117"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TAVG_GHCND:UKW00035047_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag "H,,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TAVG> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "109"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMAX_GHCND:UK000003162_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMAX> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "100"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMAX_GHCND:UKM00003100_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMAX> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "126"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMAX_GHCND:UKW00035047_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMAX> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "107"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMAX_GHCND:UKW00035047_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMAX> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "145"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003005_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "37"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003005_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "60"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003005_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "60"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003005_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "73"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003005_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "67"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003026_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "68"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003026_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "73"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003026_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "67"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003162_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "18"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003162_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "48"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003162_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "47"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003162_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "-6"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003162_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "45"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003302_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003302> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "96"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003808_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "103"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003808_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "66"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003808_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "94"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000003808_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "53"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000070765_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000070765> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "29"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UK000070765_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000070765> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "82"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003017_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "34"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003017_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "65"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003017_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "81"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003066_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "53"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003066_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "79"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003066_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "57"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003066_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "84"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003091_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003091> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "50"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003091_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003091> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "69"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003100_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "82"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003100_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "82"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003100_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "78"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003171_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "37"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003171_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "68"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003171_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "42"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003171_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "69"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003257_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "50"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003257_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "69"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003257_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "27"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003414_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "49"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003414_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "70"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003414_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "66"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003502_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "94"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003502_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "76"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003502_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "82"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003502_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "91"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003502_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "65"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003590_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "42"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003590_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "58"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003590_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "46"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003590_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "67"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003590_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "65"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003590_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "65"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003740_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "45"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003740_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "71"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003740_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "49"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003740_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "63"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003772_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "48"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003772_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "62"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003772_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "77"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003862_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "15"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003862_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "54"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003862_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "57"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003862_at_2020-10-15T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "56"^^xsd:float ;
+    sosa:resultTime "2020-10-15"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003917_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003917> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "79"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKM00003917_at_2020-10-14T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003917> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "71"^^xsd:float ;
+    sosa:resultTime "2020-10-14"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKW00035047_at_2020-10-10T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "45"^^xsd:float ;
+    sosa:resultTime "2020-10-10"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKW00035047_at_2020-10-11T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "82"^^xsd:float ;
+    sosa:resultTime "2020-10-11"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKW00035047_at_2020-10-12T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "68"^^xsd:float ;
+    sosa:resultTime "2020-10-12"^^xsd:date .
+
+<http://jresearch.ucd.ie/climate-kg/resource/observation/TMIN_GHCND:UKW00035047_at_2020-10-13T00:00:00> ca_property:hasAttributeFlag ",,S," ;
+    ca_property:recordedAsDataType <http://jresearch.ucd.ie/climate-kg/resource/datatype/TMIN> ;
+    ca_property:recordedByStation <http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ;
+    ca_property:recordedInDataset <http://jresearch.ucd.ie/climate-kg/resource/dataset/GHCND> ;
+    sosa:hasSimpleResult "91"^^xsd:float ;
+    sosa:resultTime "2020-10-13"^^xsd:date .
+

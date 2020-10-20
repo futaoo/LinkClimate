@@ -1,4 +1,9 @@
+from datetime import time
 from ontology import CANOAAV2, CDOWeb
+import requests
+from requests_toolbelt.multipart import encoder
+import os
+from utils import split_date_by_month
 
 
 # def fetch_all_locctgrids(r:CDOWeb, limit=1000):
@@ -41,6 +46,21 @@ def fetch_ids(r:CDOWeb, endpoint, limit=1000, **params):
             i += 1
     return ids
 
+def fetch_all_data(r:CDOWeb, endpoint, limit=1000, **params):
+    jsondata = r.requestfrom(**params, endpoint=endpoint, limit=limit)
+    data = jsondata['results']
+
+    result_num = jsondata['metadata']['resultset']['count']
+    iterate_num = (result_num-1)//limit
+    if iterate_num >= 1:
+        i = 1
+        while i <= iterate_num:
+            iter_jsondata = r.requestfrom(**params, endpoint=endpoint, limit=limit, offset=i*limit+1) 
+            data += iter_jsondata['results']
+            i += 1
+    return data
+
+
 
 def find_cityids_of_country(c_lable):
     all_locids = fetch_ids(r=rCDO, endpoint='/locations', locationcategoryid = 'CITY')
@@ -53,8 +73,16 @@ def find_cityids_of_country(c_lable):
 
 
 def create_triples(o:CANOAAV2, mapflag, r:CDOWeb, endpoint, mapfunctionparas = {}, limit=1000, **r_params):
-    jsondata = r.requestfrom(**r_params, endpoint=endpoint, limit=limit)
-    return o.create_triples_from_json(json_results=jsondata['results'], mapflag=mapflag, **mapfunctionparas)
+
+    try:
+        jsondata = fetch_all_data(r=r, endpoint=endpoint, **r_params)
+        #jsondata = r.requestfrom(**r_params, endpoint=endpoint, limit=limit)['results']
+        triples = o.create_triples_from_json(json_results=jsondata, mapflag=mapflag, **mapfunctionparas)
+        return triples
+    except Exception as e:
+        print(e.__class__, "occurred.")
+
+    # print(jsondata)
 
 
 o = CANOAAV2()
@@ -72,45 +100,25 @@ rCDO = CDOWeb('https://www.ncdc.noaa.gov/cdo-web/api/v2', 'dSPQHTPvpQGQvrlBvaCax
 
 #triples_datactgr = create_triples(o=o, mapflag='datactgr', r=rCDO, endpoint='/datacategories')
 
-datactgrids =  fetch_ids(r=rCDO, endpoint='/datacategories')
-triples_datatype = []
-for id in datactgrids:
-    triples_datatype += create_triples(o=o, mapflag='datatype', r=rCDO, endpoint='/datatypes', mapfunctionparas={'datacategoryid':id}, datacategoryid=id)
+# datactgrids =  fetch_ids(r=rCDO, endpoint='/datacategories')
+# triples_datatype = []
+# for id in datactgrids:
+#     triples_datatype += create_triples(o=o, mapflag='datatype', r=rCDO, endpoint='/datatypes', mapfunctionparas={'datacategoryid':id}, datacategoryid=id)
 
+time_intervals = split_date_by_month(begin='2020-10-10', end='2020-10-15')
+for time_interval in time_intervals:
+    locationids = 'FIPS:UK'
+    triples_data = create_triples(o=o, mapflag='data', r=rCDO, endpoint='/data', mapfunctionparas={'datasetid':'GHCND'}, datasetid='GHCND',
+    locationid=locationids, startdate = time_interval['startdate'], enddate=time_interval['enddate'])
 
+    ograph = o.graph
+    for triple in triples_data:
+        ograph.add(triple)
+    triple_file = ograph.serialize(format="turtle").decode("utf-8")
 
+    with open('data.ttl','a') as f:
+        f.write(triple_file)
 
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-# def triples_ca_fix(r:CDOWeb, loccateids, locationids, datacategoryids):
-
-
-
-#     triples_loccate = fix_triplecreate_loccate()
-
-#     triples_loc=[]
-#     for loccateid in loccateids:
-#         triples_loc += fix_triplecreate_loc(loccateid=loccateid)
-
-
-#     triples_station = []
-#     for locationid in locationids:
-#         triples_station += fix_triplecreate_station(locationid=locationid)
-
-#     triples_datacate = fix_triplecreate_datacate()
-#     triples_datatype = fetch_triplecreate_datatype(datacategoryids=datacategoryids)
-
-#     triples = triples_loccate + triples_station + triples_loc +triples_datacate + triples_datatype
-    
-#     return triples
+# multipart_data = encoder.MultipartEncoder(fields={'file': ('data.ttl', open('data.ttl', 'rb'), 'text/plain')})
+# headers = {'Content-Type': multipart_data.content_type}
+# r = requests.post('http://jresearch.ucd.ie/endpoint/climate-kg/data', auth=('admin','KG@ucd.ie'), data=multipart_data, headers=headers)

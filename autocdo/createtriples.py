@@ -1,9 +1,11 @@
-from datetime import time
+import datetime
+import time
 from ontology import CANOAAV2, CDOWeb
+from apscheduler.schedulers.background import BackgroundScheduler
 import requests
 from requests_toolbelt.multipart import encoder
 import os
-from utils import split_date_by_month
+from utils import a_week_before, split_date_by_month
 
 
 # def fetch_all_locctgrids(r:CDOWeb, limit=1000):
@@ -104,21 +106,32 @@ rCDO = CDOWeb('https://www.ncdc.noaa.gov/cdo-web/api/v2', 'dSPQHTPvpQGQvrlBvaCax
 # triples_datatype = []
 # for id in datactgrids:
 #     triples_datatype += create_triples(o=o, mapflag='datatype', r=rCDO, endpoint='/datatypes', mapfunctionparas={'datacategoryid':id}, datacategoryid=id)
+def upload_triples():
+    print("%s: uploading triples now" % time.asctime())
+    out_fmt = '%Y-%m-%d'
+    date_of_today = datetime.datetime.today()
+    date_before_a_week = a_week_before(date_of_today=date_of_today)
+    time_intervals = split_date_by_month(begin=date_before_a_week.strftime(out_fmt), end=date_of_today.strftime(out_fmt))
 
-time_intervals = split_date_by_month(begin='2020-10-10', end='2020-10-15')
-for time_interval in time_intervals:
-    locationids = 'FIPS:UK'
-    triples_data = create_triples(o=o, mapflag='data', r=rCDO, endpoint='/data', mapfunctionparas={'datasetid':'GHCND'}, datasetid='GHCND',
-    locationid=locationids, startdate = time_interval['startdate'], enddate=time_interval['enddate'])
+    for time_interval in time_intervals:
+        locationids = ['FIPS:UK', 'FIPS:EI']
+        triples_data = create_triples(o=o, mapflag='data', r=rCDO, endpoint='/data', mapfunctionparas={'datasetid':'GHCND'}, datasetid='GHCND',
+        locationid=locationids, startdate = time_interval['startdate'], enddate=time_interval['enddate'])
 
-    ograph = o.graph
-    for triple in triples_data:
-        ograph.add(triple)
-    triple_file = ograph.serialize(format="turtle").decode("utf-8")
+        ograph = o.graph
+        for triple in triples_data:
+            ograph.add(triple)
+        triple_file = ograph.serialize(format="turtle").decode("utf-8")
 
-    with open('data.ttl','a') as f:
-        f.write(triple_file)
+        with open('data.ttl','w') as f:
+            f.write(triple_file)
+        multipart_data = encoder.MultipartEncoder(fields={'file': ('data.ttl', open('data.ttl', 'rb'), 'text/plain')})
+        headers = {'Content-Type': multipart_data.content_type}
+        requests.post('http://jresearch.ucd.ie/endpoint/climate-kg/data', auth=('admin','KG@ucd.ie'), data=multipart_data, headers=headers)
 
-# multipart_data = encoder.MultipartEncoder(fields={'file': ('data.ttl', open('data.ttl', 'rb'), 'text/plain')})
-# headers = {'Content-Type': multipart_data.content_type}
-# r = requests.post('http://jresearch.ucd.ie/endpoint/climate-kg/data', auth=('admin','KG@ucd.ie'), data=multipart_data, headers=headers)
+
+scheduler = BackgroundScheduler({'apscheduler.timezone': 'Asia/Shanghai'}, daemon=False)
+scheduler.add_job(upload_triples, 'interval', minutes=1, start_date='2020-10-20 18:16:00', id='upload_triples')
+scheduler.start()
+# scheduler.shutdown(wait=False)
+# scheduler.remove_job('upload_triples')

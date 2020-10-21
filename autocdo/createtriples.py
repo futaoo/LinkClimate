@@ -140,14 +140,14 @@ def upload_fix():
 
 def upload_data():
     print("%s: uploading triples now" % time.asctime())
-    o = CANOAAV2()
-    rCDO = CDOWeb('https://www.ncdc.noaa.gov/cdo-web/api/v2', 'dSPQHTPvpQGQvrlBvaCaxwbFjLSFANlC')
     out_fmt = '%Y-%m-%d'
     date_of_today = datetime.datetime.today()
     date_before_n_week = n_week_before(n=4, date_of_today=date_of_today)
     time_intervals = split_date_by_month(begin=date_before_n_week.strftime(out_fmt), end=date_of_today.strftime(out_fmt))
 
     for time_interval in time_intervals:
+        o = CANOAAV2()
+        rCDO = CDOWeb('https://www.ncdc.noaa.gov/cdo-web/api/v2', 'dSPQHTPvpQGQvrlBvaCaxwbFjLSFANlC')
         locationids = ['FIPS:UK', 'FIPS:EI']
         triples_data = create_triples(o=o, mapflag='data', r=rCDO, endpoint='/data', mapfunctionparas={'datasetid':'GHCND'}, datasetid='GHCND',
         locationid=locationids, startdate = time_interval['startdate'], enddate=time_interval['enddate'])

@@ -91,7 +91,7 @@ o = CANOAAV2()
 rCDO = CDOWeb('https://www.ncdc.noaa.gov/cdo-web/api/v2', 'dSPQHTPvpQGQvrlBvaCaxwbFjLSFANlC')
 
 def upload_fix():
-    triples_loccate = create_triples(o=o, mapflag='locctgr', r=rCDO, endpoint='/locationcategories')
+    triples_locctgr = create_triples(o=o, mapflag='locctgr', r=rCDO, endpoint='/locationcategories')
 
     triples_loc_cntry = create_triples(o=o, mapflag='location', r=rCDO, endpoint='/locations', mapfunctionparas={'locationcategoryid':'CNTRY'},
     locationcategoryid = 'CNTRY')
@@ -124,7 +124,7 @@ def upload_fix():
         for subkey in base_triples_dict[key]:
             triples_ont += base_triples_dict[key][subkey]
 
-    triples_fix = triples_loccate + triples_loc_city + triples_loc_cntry + triples_station_city + triples_station_cntry + triples_datactgr + triples_datatype + triples_ont
+    triples_fix = triples_locctgr + triples_loc_city + triples_loc_cntry + triples_station_city + triples_station_cntry + triples_datactgr + triples_datatype + triples_ont
 
     ograph = o.graph
     for triple in triples_fix:
@@ -164,5 +164,5 @@ def upload_data():
 
 
 scheduler = BackgroundScheduler({'apscheduler.timezone': 'Asia/Shanghai'}, daemon=False)
-scheduler.add_job(upload_data, 'interval', weeks=1, start_date='2020-10-21 12:28:00', id='upload_triples')
+scheduler.add_job(upload_data, 'interval', weeks=1, start_date='2020-10-21 16:21:00', id='upload_triples')
 scheduler.start()

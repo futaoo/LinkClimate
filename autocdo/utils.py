@@ -23,10 +23,10 @@ def split_date_by_month(begin, end):
         
     return time_intervals
 
-def a_week_before(date_of_today):
+def n_week_before(n, date_of_today):
     date_of_today = datetime.datetime.today()
-    one_week = datetime.timedelta(6)
-    date_before_a_week = date_of_today - one_week
-    return date_before_a_week
+    n_week = datetime.timedelta(7*n - 1)
+    date_before_n_week = date_of_today - n_week
+    return date_before_n_week
 
 

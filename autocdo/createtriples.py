@@ -5,7 +5,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 import requests
 from requests_toolbelt.multipart import encoder
 import os
-from utils import a_week_before, split_date_by_month
+from utils import n_week_before, split_date_by_month
 
 
 # def fetch_all_locctgrids(r:CDOWeb, limit=1000):
@@ -90,28 +90,60 @@ def create_triples(o:CANOAAV2, mapflag, r:CDOWeb, endpoint, mapfunctionparas = {
 o = CANOAAV2()
 rCDO = CDOWeb('https://www.ncdc.noaa.gov/cdo-web/api/v2', 'dSPQHTPvpQGQvrlBvaCaxwbFjLSFANlC')
 
-# triples_loccate = create_triples(o=o, mapflag='locctgr', r=rCDO, endpoint='/locationcategories')
+def upload_fix():
+    triples_loccate = create_triples(o=o, mapflag='locctgr', r=rCDO, endpoint='/locationcategories')
 
-# triples_loc = create_triples(o=o, mapflag='location', r=rCDO, endpoint='/locations', mapfunctionparas={'locationcategoryid':'CITY'},
-# locationcategoryid = 'CITY')
+    triples_loc_cntry = create_triples(o=o, mapflag='location', r=rCDO, endpoint='/locations', mapfunctionparas={'locationcategoryid':'CNTRY'},
+    locationcategoryid = 'CNTRY')
 
-# triples_station = []
-# locationids = find_cityids_of_country(c_lable='UK')[1:3]
-# for id in locationids:
-#     triples_station += create_triples(o=o, mapflag='station', r=rCDO, endpoint='/stations', mapfunctionparas={'locationid':id}, locationid=id)
+    triples_station_cntry = []
+    cntry_ids = ['FIPS:UK', 'FIPS:EI']
+    for cntry_id in cntry_ids:
+        triples_station_cntry += create_triples(o=o, mapflag='station', r=rCDO, endpoint='/stations', mapfunctionparas={'locationid':cntry_id}, locationid=cntry_id)
 
-#triples_datactgr = create_triples(o=o, mapflag='datactgr', r=rCDO, endpoint='/datacategories')
+    triples_loc_city = create_triples(o=o, mapflag='location', r=rCDO, endpoint='/locations', mapfunctionparas={'locationcategoryid':'CITY'},
+    locationcategoryid = 'CITY')
 
-# datactgrids =  fetch_ids(r=rCDO, endpoint='/datacategories')
-# triples_datatype = []
-# for id in datactgrids:
-#     triples_datatype += create_triples(o=o, mapflag='datatype', r=rCDO, endpoint='/datatypes', mapfunctionparas={'datacategoryid':id}, datacategoryid=id)
-def upload_triples():
+    triples_station_city = []
+    c_lables = ['UK', 'EI']
+    for c_label in c_lables:
+        locationids = find_cityids_of_country(c_lable=c_label)[1:3]
+        for id in locationids:
+            triples_station_city += create_triples(o=o, mapflag='station', r=rCDO, endpoint='/stations', mapfunctionparas={'locationid':id}, locationid=id)
+
+    triples_datactgr = create_triples(o=o, mapflag='datactgr', r=rCDO, endpoint='/datacategories')
+
+    triples_datatype = []
+    datactgrids =  fetch_ids(r=rCDO, endpoint='/datacategories')
+    for id in datactgrids:
+        triples_datatype += create_triples(o=o, mapflag='datatype', r=rCDO, endpoint='/datatypes', mapfunctionparas={'datacategoryid':id}, datacategoryid=id)
+
+    triples_ont = []
+    base_triples_dict = o.base_triples.toDict()
+    for key in base_triples_dict:
+        for subkey in base_triples_dict[key]:
+            triples_ont += base_triples_dict[key][subkey]
+
+    triples_fix = triples_loccate + triples_loc_city + triples_loc_cntry + triples_station_city + triples_station_cntry + triples_datactgr + triples_datatype + triples_ont
+
+    ograph = o.graph
+    for triple in triples_fix:
+        ograph.add(triple)
+    
+    triple_file = ograph.serialize(format="turtle").decode("utf-8")
+    with open('fixdata.ttl','w') as f:
+        f.write(triple_file)
+    multipart_data = encoder.MultipartEncoder(fields={'file': ('fixdata.ttl', open('fixdata.ttl', 'rb'), 'text/plain')})
+    headers = {'Content-Type': multipart_data.content_type}
+    requests.post('http://jresearch.ucd.ie/kg/climate/data', auth=('admin','KG@ucd.ie'), data=multipart_data, headers=headers)
+
+
+def upload_data():
     print("%s: uploading triples now" % time.asctime())
     out_fmt = '%Y-%m-%d'
     date_of_today = datetime.datetime.today()
-    date_before_a_week = a_week_before(date_of_today=date_of_today)
-    time_intervals = split_date_by_month(begin=date_before_a_week.strftime(out_fmt), end=date_of_today.strftime(out_fmt))
+    date_before_n_week = n_week_before(n=4, date_of_today=date_of_today)
+    time_intervals = split_date_by_month(begin=date_before_n_week.strftime(out_fmt), end=date_of_today.strftime(out_fmt))
 
     for time_interval in time_intervals:
         locationids = ['FIPS:UK', 'FIPS:EI']
@@ -127,11 +159,10 @@ def upload_triples():
             f.write(triple_file)
         multipart_data = encoder.MultipartEncoder(fields={'file': ('data.ttl', open('data.ttl', 'rb'), 'text/plain')})
         headers = {'Content-Type': multipart_data.content_type}
-        requests.post('http://jresearch.ucd.ie/endpoint/climate-kg/data', auth=('admin','KG@ucd.ie'), data=multipart_data, headers=headers)
+        requests.post('http://jresearch.ucd.ie/kg/climate/data', auth=('admin','KG@ucd.ie'), data=multipart_data, headers=headers)
+        print('{} to {} : Upload Completed!!'.format(time_interval['startdate'], time_interval['enddate']))
 
 
 scheduler = BackgroundScheduler({'apscheduler.timezone': 'Asia/Shanghai'}, daemon=False)
-scheduler.add_job(upload_triples, 'interval', minutes=1, start_date='2020-10-20 18:16:00', id='upload_triples')
+scheduler.add_job(upload_data, 'interval', weeks=1, start_date='2020-10-21 12:28:00', id='upload_triples')
 scheduler.start()
-# scheduler.shutdown(wait=False)
-# scheduler.remove_job('upload_triples')

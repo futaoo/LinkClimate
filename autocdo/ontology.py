@@ -2,7 +2,7 @@ from dotmap import DotMap
 from rdflib import URIRef, Literal
 from rdflib.graph import Graph
 from rdflib.namespace import CSVW, DC, DCAT, DCTERMS, DOAP, FOAF, ODRL2, ORG, OWL, \
-                           PROF, PROV, RDF, RDFS, SDO, SH, SKOS, SOSA, SSN, TIME, \
+                           PROF, PROV, RDF, RDFS, SDO, SH, SKOS, SSN, TIME, \
                            VOID, XMLNS, XSD
 from rdflib import Namespace
 from dotmap import DotMap
@@ -19,6 +19,7 @@ class CANOAAV2:
         self.prefix = DotMap()
         self.prefix.ca_class = Namespace('http://jresearch.ucd.ie/climate-kg/ca/class/')
         self.prefix.ca_property = Namespace('http://jresearch.ucd.ie/climate-kg/ca/property/')
+        self.prefix.sosa = Namespace('https://www.w3.org/TR/vocab-ssn/#SOSA')
 
         self.prefix_str = DotMap()
         self.prefix_str.resource_dataset = 'http://jresearch.ucd.ie/climate-kg/resource/dataset/'
@@ -35,7 +36,7 @@ class CANOAAV2:
         self.graph.bind('rdf', RDF)
         self.graph.bind('ca_class', self.prefix.ca_class)
         self.graph.bind('ca_property', self.prefix.ca_property)
-        self.graph.bind('sosa', SOSA)
+        self.graph.bind('sosa', self.prefix.sosa)
 
 
         self.classes = DotMap()
@@ -64,8 +65,8 @@ class CANOAAV2:
         self.properties.recordedInDataset = tmp_property.recordedInDataset
         self.properties.recordedByStation = tmp_property.recordedByStation
         self.properties.recordedAsDataType = tmp_property.recordedAsDataType
-        self.properties.resultTime = SOSA.resultTime
-        self.properties.hasSimpleResult = SOSA.hasSimpleResult
+        self.properties.resultTime = self.prefix.sosa.resultTime
+        self.properties.hasSimpleResult = self.prefix.sosa.hasSimpleResult
         self.properties.hasAttributeFlag = tmp_property.hasAttributeFlag
 
 
@@ -79,8 +80,8 @@ class CANOAAV2:
         self.base_triples.classes.LocationCategory = [(self.classes.LocationCategory, RDF.type, RDFS.Class)]
         self.base_triples.classes.Location = [(self.classes.Location, RDF.type, RDFS.Class)]
         self.base_triples.classes.Station = [(self.classes.Station, RDF.type, RDFS.Class)]
-        self.base_triples.classes.Observation = [(self.classes.Observation, RDFS.subClassOf, SOSA.Observation)]
-        self.base_triples.classes.Result = [(self.classes.Result, RDFS.subClassOf, SOSA.Result)]
+        self.base_triples.classes.Observation = [(self.classes.Observation, RDFS.subClassOf, self.prefix.sosa.Observation)]
+        self.base_triples.classes.Result = [(self.classes.Result, RDFS.subClassOf, self.prefix.sosa.Result)]
 
         self.base_triples.properties.hasUid = [
             (self.properties.hasUid, RDF.type, RDF.Property),
@@ -235,6 +236,7 @@ class CANOAAV2:
         uri_datatype = URIRef(self.prefix_str.resource_datatype + jsondata['datatype'])
 
         triples = [
+            (uri_observation, RDF.type, self.classes.Observation),
             (uri_observation, self.properties.recordedInDataset, uri_dataset),
             (uri_observation, self.properties.recordedByStation, uri_station),
             (uri_observation, self.properties.recordedAsDataType, uri_datatype),
@@ -267,6 +269,9 @@ class CDOWeb:
         data = r.json()
         # print(data['results'])
         return data
+
+
+
 
 
 

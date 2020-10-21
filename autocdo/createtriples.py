@@ -64,8 +64,8 @@ def fetch_all_data(r:CDOWeb, endpoint, limit=1000, **params):
 
 
 
-def find_cityids_of_country(c_lable):
-    all_locids = fetch_ids(r=rCDO, endpoint='/locations', locationcategoryid = 'CITY')
+def find_cityids_of_country(r:CDOWeb, c_lable):
+    all_locids = fetch_ids(r=r, endpoint='/locations', locationcategoryid = 'CITY')
     all_locids_by_c = []
     for id in all_locids:
         if id[5:7] == c_lable:
@@ -87,10 +87,10 @@ def create_triples(o:CANOAAV2, mapflag, r:CDOWeb, endpoint, mapfunctionparas = {
     # print(jsondata)
 
 
-o = CANOAAV2()
-rCDO = CDOWeb('https://www.ncdc.noaa.gov/cdo-web/api/v2', 'dSPQHTPvpQGQvrlBvaCaxwbFjLSFANlC')
 
 def upload_fix():
+    o = CANOAAV2()
+    rCDO = CDOWeb('https://www.ncdc.noaa.gov/cdo-web/api/v2', 'dSPQHTPvpQGQvrlBvaCaxwbFjLSFANlC')
     triples_locctgr = create_triples(o=o, mapflag='locctgr', r=rCDO, endpoint='/locationcategories')
 
     triples_loc_cntry = create_triples(o=o, mapflag='location', r=rCDO, endpoint='/locations', mapfunctionparas={'locationcategoryid':'CNTRY'},
@@ -107,7 +107,7 @@ def upload_fix():
     triples_station_city = []
     c_lables = ['UK', 'EI']
     for c_label in c_lables:
-        locationids = find_cityids_of_country(c_lable=c_label)[1:3]
+        locationids = find_cityids_of_country(r=rCDO, c_lable=c_label)[1:3]
         for id in locationids:
             triples_station_city += create_triples(o=o, mapflag='station', r=rCDO, endpoint='/stations', mapfunctionparas={'locationid':id}, locationid=id)
 
@@ -140,6 +140,8 @@ def upload_fix():
 
 def upload_data():
     print("%s: uploading triples now" % time.asctime())
+    o = CANOAAV2()
+    rCDO = CDOWeb('https://www.ncdc.noaa.gov/cdo-web/api/v2', 'dSPQHTPvpQGQvrlBvaCaxwbFjLSFANlC')
     out_fmt = '%Y-%m-%d'
     date_of_today = datetime.datetime.today()
     date_before_n_week = n_week_before(n=4, date_of_today=date_of_today)

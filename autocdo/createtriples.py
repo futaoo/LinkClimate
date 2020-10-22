@@ -74,7 +74,7 @@ def find_cityids_of_country(r:CDOWeb, c_lable):
 
 
 
-def create_triples(o:CANOAAV2, mapflag, r:CDOWeb, endpoint, mapfunctionparas = {}, limit=1000, **r_params):
+def create_triples(o:CANOAAV2, mapflag, r:CDOWeb, endpoint, mapfunctionparas = {}, **r_params):
 
     try:
         jsondata = fetch_all_data(r=r, endpoint=endpoint, **r_params)

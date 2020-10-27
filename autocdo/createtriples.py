@@ -150,7 +150,7 @@ def upload_data():
         rCDO = CDOWeb('https://www.ncdc.noaa.gov/cdo-web/api/v2', 'dSPQHTPvpQGQvrlBvaCaxwbFjLSFANlC')
         locationids = ['FIPS:UK', 'FIPS:EI']
         triples_data = create_triples(o=o, mapflag='data', r=rCDO, endpoint='/data', mapfunctionparas={'datasetid':'GHCND'}, datasetid='GHCND',
-        locationid=locationids, startdate = time_interval['startdate'], enddate=time_interval['enddate'])
+        locationid=locationids, units='standard',startdate = time_interval['startdate'], enddate=time_interval['enddate'])
 
         ograph = o.graph
         for triple in triples_data:
@@ -165,6 +165,7 @@ def upload_data():
         print('{} to {} : Upload Completed!!'.format(time_interval['startdate'], time_interval['enddate']))
 
 
-scheduler = BackgroundScheduler({'apscheduler.timezone': 'Asia/Shanghai'}, daemon=False)
-scheduler.add_job(upload_data, 'interval', weeks=1, start_date='2020-10-21 16:21:00', id='upload_triples')
-scheduler.start()
+# scheduler = BackgroundScheduler({'apscheduler.timezone': 'Asia/Shanghai'}, daemon=False)
+# scheduler.add_job(upload_data, 'interval', weeks=1, start_date='2020-10-22 10:28:00', id='upload_triples')
+# scheduler.start()
+upload_fix()

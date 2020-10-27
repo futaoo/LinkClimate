@@ -19,7 +19,7 @@ class CANOAAV2:
         self.prefix = DotMap()
         self.prefix.ca_class = Namespace('http://jresearch.ucd.ie/climate-kg/ca/class/')
         self.prefix.ca_property = Namespace('http://jresearch.ucd.ie/climate-kg/ca/property/')
-        self.prefix.sosa = Namespace('https://www.w3.org/TR/vocab-ssn/#SOSA')
+        self.prefix.sosa = Namespace('http://www.w3.org/ns/sosa/')
         self.prefix.geo = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
         self.prefix.qudt = Namespace('http://qudt.org/1.1/schema/qudt#')
 
@@ -67,7 +67,7 @@ class CANOAAV2:
         self.properties.inDataCategory = tmp_property.inDataCategory
         self.properties.inLocationCategory = tmp_property.inLocationCategory
         self.properties.recordedInDataset = tmp_property.recordedInDataset
-        self.properties.recordedByStation = tmp_property.recordedByStation
+        self.properties.sourceStation = tmp_property.sourceStation
         self.properties.withDataType = tmp_property.withDataType
         self.properties.resultTime = self.prefix.sosa.resultTime
         self.properties.hasSimpleResult = self.prefix.sosa.hasSimpleResult
@@ -80,14 +80,14 @@ class CANOAAV2:
         self.base_triples.classes = DotMap()
         self.base_triples.properties = DotMap()
 
-        self.base_triples.classes.Dataset = [(self.classes.Dataset, RDF.type, RDFS.Class)]
-        self.base_triples.classes.DataCategory = [(self.classes.DataCategory, RDF.type, RDFS.Class)]
-        self.base_triples.classes.DataType = [(self.classes.DataType, RDF.type, RDFS.Class)]
-        self.base_triples.classes.LocationCategory = [(self.classes.LocationCategory, RDF.type, RDFS.Class)]
-        self.base_triples.classes.Location = [(self.classes.Location, RDF.type, RDFS.Class)]
-        self.base_triples.classes.Station = [(self.classes.Station, RDF.type, RDFS.Class)]
-        self.base_triples.classes.Observation = [(self.classes.Observation, RDFS.subClassOf, self.prefix.sosa.Observation)]
-        self.base_triples.classes.Result = [(self.classes.Result, RDFS.subClassOf, self.prefix.sosa.Result)]
+        self.base_triples.classes.Dataset = [(self.classes.Dataset, RDF.type, RDFS.Class), (self.classes.Dataset, RDFS.label, Literal('Class Dataset'))]
+        self.base_triples.classes.DataCategory = [(self.classes.DataCategory, RDF.type, RDFS.Class), (self.classes.DataCategory, RDFS.label, Literal('Class DataCategory'))]
+        self.base_triples.classes.DataType = [(self.classes.DataType, RDF.type, RDFS.Class), (self.classes.DataType, RDFS.label, Literal('Class DataType'))]
+        self.base_triples.classes.LocationCategory = [(self.classes.LocationCategory, RDF.type, RDFS.Class), (self.classes.LocationCategory, RDFS.label, Literal('Class LocationCategory'))]
+        self.base_triples.classes.Location = [(self.classes.Location, RDF.type, RDFS.Class), (self.classes.Location, RDFS.label, Literal('Class Location'))]
+        self.base_triples.classes.Station = [(self.classes.Station, RDF.type, RDFS.Class), (self.classes.Station, RDFS.label, Literal('Class Station'))]
+        self.base_triples.classes.Observation = [(self.classes.Observation, RDFS.subClassOf, self.prefix.sosa.Observation), (self.classes.Observation, RDFS.label, Literal('Class Observation'))]
+        self.base_triples.classes.Result = [(self.classes.Result, RDFS.subClassOf, self.prefix.sosa.Result), (self.classes.Result, RDFS.label, Literal('Class Result'))]
 
         self.base_triples.properties.uid = [
             (self.properties.uid, RDF.type, RDF.Property),
@@ -124,10 +124,10 @@ class CANOAAV2:
             (self.properties.recordedInDataset, RDFS.range, self.classes.Dataset),
             (self.properties.recordedInDataset, RDFS.domain, self.classes.Result)
         ]
-        self.base_triples.properties.recordedByStation = [
-            (self.properties.recordedByStation, RDF.type, RDF.Property),
-            (self.properties.recordedByStation, RDFS.range, self.classes.Station),
-            (self.properties.recordedByStation, RDFS.domain, self.classes.Result)
+        self.base_triples.properties.sourceStation = [
+            (self.properties.sourceStation, RDF.type, RDF.Property),
+            (self.properties.sourceStation, RDFS.range, self.classes.Station),
+            (self.properties.sourceStation, RDFS.domain, self.classes.Observation)
         ]
         self.base_triples.properties.withDataType = [
             (self.properties.withDataType, RDF.type, RDF.Property),
@@ -155,6 +155,7 @@ class CANOAAV2:
         uri_locationcategory = URIRef(self.prefix_str.resource_locationcategory + jsondata['id'])
         triples = [
             (uri_locationcategory, RDF.type, self.classes.LocationCategory),
+            (uri_locationcategory, RDFS.label, Literal('{}: an instance of class LocationCategory'.format(jsondata['name']))),
             (uri_locationcategory, self.properties.id, Literal(jsondata['id'])),
             (uri_locationcategory, self.properties.name, Literal(jsondata['name']))
         ]
@@ -165,6 +166,7 @@ class CANOAAV2:
         uri_locationcategory = URIRef(self.prefix_str.resource_locationcategory + locationcategoryid)
         triples = [
             (uri_location, RDF.type, self.classes.Location),
+            (uri_location, RDFS.label, Literal('{}: an instance of class Location'.format(jsondata['name']))),
             (uri_location, self.properties.inLocationCategory, uri_locationcategory),
             (uri_location, self.properties.id, Literal(jsondata['id'])),
             (uri_location, self.properties.name, Literal(jsondata['name']))
@@ -178,6 +180,7 @@ class CANOAAV2:
             jsondata['elevation'] = ''
         triples = [
             (uri_station, RDF.type, self.classes.Station),
+            (uri_station, RDFS.label, Literal('{}: an instance of class Station'.format(jsondata['name']))),
             (uri_station, self.properties.isLocatedIn, uri_location),
             (uri_station, self.properties.id, Literal(jsondata['id'])),
             (uri_station, self.properties.name, Literal(jsondata['name'])),
@@ -192,6 +195,7 @@ class CANOAAV2:
         uri_dataset = URIRef(self.prefix_str.resource_dataset + jsondata['id'])
         triples = [
             (uri_dataset, RDF.type, self.classes.Dataset),
+            (uri_dataset, RDFS.label, Literal('{}: an instance of class Dataset'.format(jsondata['name']))),
             (uri_dataset, self.properties.id, Literal(jsondata['id'])),
             (uri_dataset, self.properties.name, Literal(jsondata['name']))
         ]
@@ -201,6 +205,7 @@ class CANOAAV2:
         uri_datacategory = URIRef(self.prefix_str.resource_datacategory + jsondata['id'])
         triples = [
             (uri_datacategory, RDF.type, self.classes.DataCategory),
+            (uri_datacategory, RDFS.label, Literal('{}: an instance of class DataCategory'.format(jsondata['name']))),
             (uri_datacategory, self.properties.id, Literal(jsondata['id'])),
             (uri_datacategory, self.properties.name, Literal(jsondata['name']))
         ]
@@ -211,6 +216,7 @@ class CANOAAV2:
         uri_datacategory = URIRef(self.prefix_str.resource_datacategory + datacategoryid)
         triples = [
             (uri_datatype, RDF.type, self.classes.DataType),
+            (uri_datatype, RDFS.label, Literal('{}: an instance of class DataType'.format(jsondata['name']))),
             (uri_datatype, self.properties.inDataCategory, uri_datacategory),
             (uri_datatype, self.properties.id, Literal(jsondata['id'])),
             (uri_datatype, self.properties.name, Literal(jsondata['name']))
@@ -226,12 +232,14 @@ class CANOAAV2:
 
         triples = [
             (uri_observation, RDF.type, self.classes.Observation),
+            (uri_observation, RDFS.label, Literal('An obeservation to {} from station (id={}) made at {}'.format(jsondata['datatype'], jsondata['station'], jsondata['date']))),
             (uri_observation, self.properties.hasResult, uri_result),
             (uri_observation, self.properties.resultTime, Literal(jsondata['date'], datatype=XSD.date)),
             (uri_observation, self.properties.hasSimpleResult, Literal(jsondata['value'], datatype=XSD.float)),
+            (uri_observation, self.properties.sourceStation, uri_station),
             (uri_result, RDF.type, self.classes.Result),
+            (uri_result, RDFS.label, Literal('An observation result about {}'.format(jsondata['datatype']))),
             (uri_result, self.properties.recordedInDataset, uri_dataset),
-            (uri_result, self.properties.recordedByStation, uri_station),
             (uri_result, self.properties.withDataType, uri_datatype),
             (uri_result, self.properties.numericValue, Literal(jsondata['value'], datatype=XSD.float)),
             (uri_result, self.properties.attributeFlag, Literal(jsondata['attributes']))

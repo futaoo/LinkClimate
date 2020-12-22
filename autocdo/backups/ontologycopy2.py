@@ -9,8 +9,6 @@ from dotmap import DotMap
 import concurrent.futures
 import itertools
 import requests
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
 
 
 
@@ -34,8 +32,6 @@ class CANOAAV2:
         self.prefix_str.resource_station = 'http://jresearch.ucd.ie/climate-kg/resource/station/'
         self.prefix_str.resource_observation = 'http://jresearch.ucd.ie/climate-kg/resource/observation/'
         self.prefix_str.resource_result = 'http://jresearch.ucd.ie/climate-kg/resource/result/'
-        self.prefix_str.resource_address = 'http://jresearch.ucd.ie/climate-kg/resource/address/'
-        self.prefix_str.resource_reference = 'http://jresearch.ucd.ie/climate-kg/resource/reference/'
 
         self.graph = Graph()
         self.graph.bind('rdfs', RDFS)
@@ -57,8 +53,6 @@ class CANOAAV2:
         self.classes.Station = tmp_class.Station
         self.classes.Observation = tmp_class.Observation
         self.classes.Result = tmp_class.Result
-        self.classes.Address = tmp_class.Address
-        self.classes.Reference = tmp_class.Reference
 
         self.properties = DotMap()
         tmp_property = self.prefix.ca_property
@@ -80,8 +74,6 @@ class CANOAAV2:
         self.properties.hasResult = self.prefix.sosa.hasResult
         self.properties.attributeFlag = tmp_property.attributeFlag
         self.properties.numericValue = self.prefix.qudt.numericValue
-        self.properties.hasAddress = tmp_property.hasAddress
-        self.properties.referenceTags = tmp_property.referenceTags
 
 
         self.base_triples = DotMap()
@@ -96,8 +88,6 @@ class CANOAAV2:
         self.base_triples.classes.Station = [(self.classes.Station, RDF.type, RDFS.Class), (self.classes.Station, RDFS.label, Literal('Class Station'))]
         self.base_triples.classes.Observation = [(self.classes.Observation, RDFS.subClassOf, self.prefix.sosa.Observation), (self.classes.Observation, RDFS.label, Literal('Class Observation'))]
         self.base_triples.classes.Result = [(self.classes.Result, RDFS.subClassOf, self.prefix.sosa.Result), (self.classes.Result, RDFS.label, Literal('Class Result'))]
-        self.base_triples.classes.Address = [(self.classes.Address, RDF.type, RDFS.Class), (self.classes.Address, RDFS.label, Literal('Class Address'))]
-        self.base_triples.classes.Reference = [(self.classes.Reference, RDF.type, RDFS.Class), (self.classes.Reference, RDFS.label, Literal('Class Reference'))]
 
         self.base_triples.properties.uid = [
             (self.properties.uid, RDFS.label, Literal('uid')),
@@ -160,14 +150,6 @@ class CANOAAV2:
             (self.properties.attributeFlag, RDFS.range, RDFS.Literal),
             (self.properties.attributeFlag, RDFS.domain, self.classes.Result)
         ]
-        self.base_triples.properties.hasAddress = [
-            (self.properties.hasAddress, RDFS.label, Literal('hasAddress')),
-            (self.properties.hasAddress, RDF.type, RDF.Property)
-        ]
-        self.base_triples.properties.referenceTags = [
-            (self.properties.referenceTags, RDFS.label, Literal('referenceTags')),
-            (self.properties.referenceTags, RDF.type, RDF.Property)
-        ]
 
         self.map_to_triples = dict()
         self.map_to_triples['locctgr'] = self.map_to_triples_locctgr
@@ -177,7 +159,6 @@ class CANOAAV2:
         self.map_to_triples['datactgr'] = self.map_to_triples_datactgr
         self.map_to_triples['datatype'] = self.map_to_triples_datatype
         self.map_to_triples['data'] = self.map_to_triples_data
-        self.map_to_triples['address'] = self.map_to_triples_station_address
 
 
 
@@ -220,73 +201,6 @@ class CANOAAV2:
             (uri_station, self.properties.elevUnit, Literal(jsondata['elevationUnit']))
         ]
         return triples
-    
-    def map_to_triples_station_address(self, **jsondata):
-        uri_station_address = URIRef(self.prefix_str.resource_address + jsondata['id'])
-        uri_station = URIRef(self.prefix_str.resource_station + jsondata['id'])
-        triples_ont = []
-        triples_fix = [
-            (uri_station, self.properties.hasAddress, uri_station_address),
-            (uri_station_address, RDF.type, self.classes.Address),
-            (uri_station_address, RDFS.label, Literal('Address_{}: address details of station {}'.format(jsondata['id'], jsondata['id'])))
-        ]
-        triples = []
-        jaddress = jsondata['address']
-    
-
-        country_flag = 0
-        if 'country' in jaddress:
-            country_flag = 1
-
-        for key in jaddress:
-            if key == 'country':
-                jtags = jsondata['tags'][key]
-                entity = URIRef(self.prefix_str.resource_location + jaddress[key].replace(' ', '_').replace('/', '_'))
-                triples += [
-                    (entity, RDF.type, self.classes.Location),
-                    (entity, RDFS.label, Literal('country:{} an instance of class Location'.format(jaddress[key])))
-                    ]
-                triples.append((uri_station_address, self.prefix.ca_property[key], entity))
-                entity_tags = URIRef(self.prefix_str.resource_reference + '{}_{}'.format('tags', jaddress[key]).replace(' ','_').replace('/', '_'))
-                triples += [
-                    (entity_tags, RDF.type, self.classes.Reference),
-                    (entity_tags, RDFS.label, Literal('Reference:{}_{} an instance of class Reference'.format('tags', jaddress[key])))
-                ]
-                triples.append((entity, self.prefix.ca_property.referenceTags, entity_tags))
-                for ktag in jtags:
-                    if ktag == 'wikidata':
-                        triples.append((entity_tags, self.prefix.ca_property[ktag], URIRef('http://www.wikidata.org/entity/' + jtags[ktag])))
-                    else:
-                        triples.append((entity_tags, self.prefix.ca_property[ktag], Literal(jtags[ktag])))
-                    triples_ont.append((self.prefix.ca_property[ktag], RDFS.label, Literal(ktag)))
-                    triples_ont.append((self.prefix.ca_property[ktag], RDF.type, RDF.Property))
-
-            elif (key == 'county' or key == 'city') and country_flag == 1 :
-                jtags = jsondata['tags'][key]
-                entity = URIRef(self.prefix_str.resource_location + '{}_{}'.format(jaddress['country'],jaddress[key]).replace(' ','_').replace('/', '_'))
-                triples += [
-                    (entity, RDF.type, self.classes.Location),
-                    (entity, RDFS.label, Literal('{}:{}_{} an instance of class Location'.format(key, jaddress['country'], jaddress[key])))
-                    ]
-                triples.append((uri_station_address, self.prefix.ca_property[key], entity))
-                entity_tags = URIRef(self.prefix_str.resource_reference + '{}_{}_{}'.format('tags', jaddress['country'], jaddress[key]).replace(' ','_').replace('/', '_'))
-                triples += [
-                    (entity_tags, RDF.type, self.classes.Reference),
-                    (entity_tags, RDFS.label, Literal('Reference:{}_{}_{} an instance of class Reference'.format('tags', jaddress['country'], jaddress[key])))
-                ]
-                triples.append((entity, self.prefix.ca_property.referenceTags, entity_tags))
-                for ktag in jtags:
-                    if ktag == 'wikidata':
-                        triples.append((entity_tags, self.prefix.ca_property[ktag], URIRef('http://www.wikidata.org/entity/' + jtags[ktag])))
-                    else:
-                        triples.append((entity_tags, self.prefix.ca_property[ktag], Literal(jtags[ktag])))
-                    triples_ont.append((self.prefix.ca_property[ktag], RDFS.label, Literal(ktag)))
-                    triples_ont.append((self.prefix.ca_property[ktag], RDF.type, RDF.Property))
-            else:
-                triples.append((uri_station_address, self.prefix.ca_property[key], Literal(jaddress[key])))
-            triples_ont.append((self.prefix.ca_property[key], RDFS.label, Literal(key)))
-            triples_ont.append((self.prefix.ca_property[key], RDF.type, RDF.Property))
-        return triples_ont + triples_fix + triples
 
     def map_to_triples_dataset(self, **jsondata):
         uri_dataset = URIRef(self.prefix_str.resource_dataset + jsondata['id'])
@@ -367,23 +281,7 @@ class CDOWeb:
         # print(data['results'])
         return data
 
-class OSMWeb:
 
-    def __init__(self, base_url:str):
-        self.base_url = base_url
-
-    def requestfrom(self, endpoint:str, **requestparas):
-        url = self.base_url + endpoint
-        params = requestparas
-        s = requests.Session()
-        retries = Retry(total=20,
-                backoff_factor=1,
-                status_forcelist=[ 500, 502, 503, 504 ])
-        s.mount(url, HTTPAdapter(max_retries=retries))
-        r = s.get(url=url, params=params)
-        data = r.json()
-        print(data)
-        return data
 
 
 

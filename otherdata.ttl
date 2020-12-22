@@ -1,0 +1,258 @@
+@prefix ca_class: <http://jresearch.ucd.ie/climate-kg/ca/class/> .
+@prefix ca_property: <http://jresearch.ucd.ie/climate-kg/ca/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ca_property:aeroway a rdf:Property ;
+    rdfs:label "aeroway" .
+
+ca_property:city a rdf:Property ;
+    rdfs:label "city" .
+
+ca_property:city_district a rdf:Property ;
+    rdfs:label "city_district" .
+
+ca_property:commercial a rdf:Property ;
+    rdfs:label "commercial" .
+
+ca_property:country a rdf:Property ;
+    rdfs:label "country" .
+
+ca_property:country_code a rdf:Property ;
+    rdfs:label "country_code" .
+
+ca_property:county a rdf:Property ;
+    rdfs:label "county" .
+
+ca_property:district a rdf:Property ;
+    rdfs:label "district" .
+
+ca_property:house_number a rdf:Property ;
+    rdfs:label "house_number" .
+
+ca_property:locality a rdf:Property ;
+    rdfs:label "locality" .
+
+ca_property:man_made a rdf:Property ;
+    rdfs:label "man_made" .
+
+ca_property:military a rdf:Property ;
+    rdfs:label "military" .
+
+ca_property:municipality a rdf:Property ;
+    rdfs:label "municipality" .
+
+ca_property:postcode a rdf:Property ;
+    rdfs:label "postcode" .
+
+ca_property:region a rdf:Property ;
+    rdfs:label "region" .
+
+ca_property:residential a rdf:Property ;
+    rdfs:label "residential" .
+
+ca_property:road a rdf:Property ;
+    rdfs:label "road" .
+
+ca_property:state_district a rdf:Property ;
+    rdfs:label "state_district" .
+
+ca_property:suburb a rdf:Property ;
+    rdfs:label "suburb" .
+
+ca_property:town a rdf:Property ;
+    rdfs:label "town" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:EI000003953> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EI000003953> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:EI000003965> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EI000003965> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:EI000003969> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EI000003969> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:EI000003980> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EI000003980> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:EIE00101859> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIE00101859> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:EIE00107762> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIE00107762> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:EIE00107808> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIE00107808> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:EIM00003955> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIM00003955> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:EIM00003956> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIM00003956> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:EIM00003957> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIM00003957> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:EIM00003962> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIM00003962> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:EIM00003967> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIM00003967> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:EIM00003973> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIM00003973> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:EIM00003976> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIM00003976> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EI000003953> a ca_class:Address ;
+    rdfs:label "Address_GHCND:EI000003953: address details of station GHCND:EI000003953" ;
+    ca_property:city_district "Caher" ;
+    ca_property:country "Ireland" ;
+    ca_property:country_code "ie" ;
+    ca_property:county "County Kerry" ;
+    ca_property:locality "Garranebane" ;
+    ca_property:region "Kenmare Municipal District" ;
+    ca_property:state_district "Munster" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EI000003965> a ca_class:Address ;
+    rdfs:label "Address_GHCND:EI000003965: address details of station GHCND:EI000003965" ;
+    ca_property:city_district "Birr Rural ED" ;
+    ca_property:country "Ireland" ;
+    ca_property:country_code "ie" ;
+    ca_property:county "County Offaly" ;
+    ca_property:locality "Clonoghil Lower" ;
+    ca_property:road "R440" ;
+    ca_property:state_district "Leinster" ;
+    ca_property:town "Birr" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EI000003969> a ca_class:Address ;
+    rdfs:label "Address_GHCND:EI000003969: address details of station GHCND:EI000003969" ;
+    ca_property:city "Dublin" ;
+    ca_property:city_district "Phoenix Park ED" ;
+    ca_property:country "Ireland" ;
+    ca_property:country_code "ie" ;
+    ca_property:district "Dublin 8" ;
+    ca_property:locality "Castleknock (Phoenix Park)" ;
+    ca_property:postcode "D07 XCX5" ;
+    ca_property:state_district "Leinster" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EI000003980> a ca_class:Address ;
+    rdfs:label "Address_GHCND:EI000003980: address details of station GHCND:EI000003980" ;
+    ca_property:city_district "Ardmalin ED" ;
+    ca_property:country "Ireland" ;
+    ca_property:country_code "ie" ;
+    ca_property:county "County Donegal" ;
+    ca_property:locality "Ardmalin" ;
+    ca_property:man_made "Malin Head Weather Station" ;
+    ca_property:region "Inishowen Municipal District" ;
+    ca_property:road "R242" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIE00101859> a ca_class:Address ;
+    rdfs:label "Address_GHCND:EIE00101859: address details of station GHCND:EIE00101859" ;
+    ca_property:city_district "Mervue" ;
+    ca_property:country "Ireland" ;
+    ca_property:country_code "ie" ;
+    ca_property:county "County Galway" ;
+    ca_property:house_number "35" ;
+    ca_property:locality "Ballybaan Beg" ;
+    ca_property:postcode "H91 F62K" ;
+    ca_property:residential "Cardinal Cushing Road" ;
+    ca_property:road "Cardinal Cushing Road" ;
+    ca_property:state_district "Connacht" ;
+    ca_property:town "Galway Municipal District" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIE00107762> a ca_class:Address ;
+    rdfs:label "Address_GHCND:EIE00107762: address details of station GHCND:EIE00107762" ;
+    ca_property:city "Waterford" ;
+    ca_property:city_district "Lisduggan" ;
+    ca_property:country "Ireland" ;
+    ca_property:country_code "ie" ;
+    ca_property:county "County Waterford" ;
+    ca_property:locality "Lisduggan Big" ;
+    ca_property:postcode "X91 KT29" ;
+    ca_property:region "Waterford City Metropolitan District" ;
+    ca_property:road "Willow Terrace" ;
+    ca_property:state_district "Munster" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIE00107808> a ca_class:Address ;
+    rdfs:label "Address_GHCND:EIE00107808: address details of station GHCND:EIE00107808" ;
+    ca_property:city_district "Ballyshannon Urban ED" ;
+    ca_property:country "Ireland" ;
+    ca_property:country_code "ie" ;
+    ca_property:county "County Donegal" ;
+    ca_property:locality "Ballyhanna" ;
+    ca_property:region "Donegal Municipal District" ;
+    ca_property:road "N3" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIM00003955> a ca_class:Address ;
+    rdfs:label "Address_GHCND:EIM00003955: address details of station GHCND:EIM00003955" ;
+    ca_property:aeroway "Cork Airport" ;
+    ca_property:city "Cork" ;
+    ca_property:city_district "Ballincollig - Carrigaline" ;
+    ca_property:commercial "Cork Airport Business Park" ;
+    ca_property:country "Ireland" ;
+    ca_property:country_code "ie" ;
+    ca_property:county "County Cork" ;
+    ca_property:postcode "T12 VH31" ;
+    ca_property:road "Avenue 5000" ;
+    ca_property:state_district "Munster" ;
+    ca_property:suburb "Lehenagh" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIM00003956> a ca_class:Address ;
+    rdfs:label "Address_GHCND:EIM00003956: address details of station GHCND:EIM00003956" ;
+    ca_property:city_district "Drinagh" ;
+    ca_property:country "Ireland" ;
+    ca_property:country_code "ie" ;
+    ca_property:county "County Wexford" ;
+    ca_property:locality "Ballykilliane" ;
+    ca_property:postcode "Y35 DF43" ;
+    ca_property:region "The Borough District of Wexford" ;
+    ca_property:state_district "Leinster" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIM00003957> a ca_class:Address ;
+    rdfs:label "Address_GHCND:EIM00003957: address details of station GHCND:EIM00003957" ;
+    ca_property:city_district "St. Helen's" ;
+    ca_property:country "Ireland" ;
+    ca_property:country_code "ie" ;
+    ca_property:county "County Wexford" ;
+    ca_property:locality "Ballygillane Big" ;
+    ca_property:region "The Borough District of Wexford" ;
+    ca_property:road "E 01;E 30" ;
+    ca_property:state_district "Leinster" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIM00003962> a ca_class:Address ;
+    rdfs:label "Address_GHCND:EIM00003962: address details of station GHCND:EIM00003962" ;
+    ca_property:aeroway "Shannon Airport" ;
+    ca_property:city_district "Clenagh" ;
+    ca_property:country "Ireland" ;
+    ca_property:country_code "ie" ;
+    ca_property:county "County Clare" ;
+    ca_property:locality "Rineanna South" ;
+    ca_property:postcode "V14 AK19" ;
+    ca_property:region "Shannon Municipal District" ;
+    ca_property:road "Shannon Access Road" ;
+    ca_property:state_district "Munster" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIM00003967> a ca_class:Address ;
+    rdfs:label "Address_GHCND:EIM00003967: address details of station GHCND:EIM00003967" ;
+    ca_property:city_district "Newcastle ED" ;
+    ca_property:country "Ireland" ;
+    ca_property:country_code "ie" ;
+    ca_property:county "County Dublin" ;
+    ca_property:district "Dublin 22" ;
+    ca_property:locality "Greenogue" ;
+    ca_property:military "Casement Aerodrome, Baldonnel" ;
+    ca_property:municipality "South Dublin" ;
+    ca_property:postcode "D24 XW67" ;
+    ca_property:road "College Lane" ;
+    ca_property:state_district "Leinster" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIM00003973> a ca_class:Address ;
+    rdfs:label "Address_GHCND:EIM00003973: address details of station GHCND:EIM00003973" ;
+    ca_property:aeroway "Ireland West Airport Knock" ;
+    ca_property:city_district "Sonnagh ED" ;
+    ca_property:country "Ireland" ;
+    ca_property:country_code "ie" ;
+    ca_property:county "County Mayo" ;
+    ca_property:locality "Barnalyra" ;
+    ca_property:region "Claremorris-Swinford Municipal District" ;
+    ca_property:road "L1304" ;
+    ca_property:state_district "Connacht" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:EIM00003976> a ca_class:Address ;
+    rdfs:label "Address_GHCND:EIM00003976: address details of station GHCND:EIM00003976" ;
+    ca_property:city_district "An Geata Mór Thuaidh ED" ;
+    ca_property:country "Ireland" ;
+    ca_property:country_code "ie" ;
+    ca_property:county "County Mayo" ;
+    ca_property:locality "Carn (Fowler)" ;
+    ca_property:region "Westport-Belmullet Municipal District" ;
+    ca_property:state_district "Connacht" .
+

@@ -1,0 +1,2100 @@
+@prefix ca_class: <http://jresearch.ucd.ie/climate-kg/ca/class/> .
+@prefix ca_property: <http://jresearch.ucd.ie/climate-kg/ca/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ca_property:aeroway a rdf:Property ;
+    rdfs:label "aeroway" .
+
+ca_property:amenity a rdf:Property ;
+    rdfs:label "amenity" .
+
+ca_property:building a rdf:Property ;
+    rdfs:label "building" .
+
+ca_property:city a rdf:Property ;
+    rdfs:label "city" .
+
+ca_property:city_district a rdf:Property ;
+    rdfs:label "city_district" .
+
+ca_property:commercial a rdf:Property ;
+    rdfs:label "commercial" .
+
+ca_property:country a rdf:Property ;
+    rdfs:label "country" .
+
+ca_property:country_code a rdf:Property ;
+    rdfs:label "country_code" .
+
+ca_property:county a rdf:Property ;
+    rdfs:label "county" .
+
+ca_property:farmyard a rdf:Property ;
+    rdfs:label "farmyard" .
+
+ca_property:hamlet a rdf:Property ;
+    rdfs:label "hamlet" .
+
+ca_property:house_number a rdf:Property ;
+    rdfs:label "house_number" .
+
+ca_property:industrial a rdf:Property ;
+    rdfs:label "industrial" .
+
+ca_property:isolated_dwelling a rdf:Property ;
+    rdfs:label "isolated_dwelling" .
+
+ca_property:leisure a rdf:Property ;
+    rdfs:label "leisure" .
+
+ca_property:locality a rdf:Property ;
+    rdfs:label "locality" .
+
+ca_property:man_made a rdf:Property ;
+    rdfs:label "man_made" .
+
+ca_property:military a rdf:Property ;
+    rdfs:label "military" .
+
+ca_property:natural a rdf:Property ;
+    rdfs:label "natural" .
+
+ca_property:neighbourhood a rdf:Property ;
+    rdfs:label "neighbourhood" .
+
+ca_property:office a rdf:Property ;
+    rdfs:label "office" .
+
+ca_property:postcode a rdf:Property ;
+    rdfs:label "postcode" .
+
+ca_property:road a rdf:Property ;
+    rdfs:label "road" .
+
+ca_property:shop a rdf:Property ;
+    rdfs:label "shop" .
+
+ca_property:state a rdf:Property ;
+    rdfs:label "state" .
+
+ca_property:state_district a rdf:Property ;
+    rdfs:label "state_district" .
+
+ca_property:suburb a rdf:Property ;
+    rdfs:label "suburb" .
+
+ca_property:tourism a rdf:Property ;
+    rdfs:label "tourism" .
+
+ca_property:town a rdf:Property ;
+    rdfs:label "town" .
+
+ca_property:village a rdf:Property ;
+    rdfs:label "village" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000000000> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000000000> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003005> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000003005> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003026> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000003026> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003162> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000003162> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003302> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000003302> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000003808> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000003808> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000044841> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000044841> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000047811> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000047811> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000056225> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000056225> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UK000070765> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000070765> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00102158> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00102158> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105003> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105003> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105630> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105630> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105636> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105636> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105648> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105648> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105651> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105651> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105657> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105657> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105660> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105660> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105669> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105669> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105675> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105675> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105681> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105681> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105856> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105856> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105857> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105857> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105858> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105858> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105860> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105860> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105861> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105861> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105862> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105862> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105863> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105863> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105864> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105864> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105865> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105865> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105866> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105866> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105867> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105867> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105869> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105869> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105870> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105870> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105871> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105871> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105872> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105872> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105873> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105873> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105874> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105874> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105875> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105875> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105876> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105876> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105877> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105877> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105878> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105878> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105881> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105881> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105882> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105882> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105884> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105884> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105885> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105885> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105886> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105886> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105887> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105887> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105888> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105888> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105889> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105889> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105890> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105890> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105891> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105891> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105892> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105892> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105893> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105893> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105895> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105895> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105897> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105897> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105898> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105898> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105899> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105899> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105900> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105900> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105901> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105901> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105902> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105902> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105903> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105903> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105904> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105904> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105905> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105905> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105906> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105906> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105907> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105907> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105908> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105908> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105909> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105909> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105910> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105910> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105911> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105911> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105912> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105912> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105913> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105913> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105914> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105914> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105915> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105915> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105917> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105917> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105918> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105918> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105921> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105921> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105922> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105922> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105923> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105923> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105924> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105924> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105925> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105925> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105927> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105927> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105929> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105929> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105930> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105930> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105931> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105931> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105932> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105932> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00105933> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105933> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00107640> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00107640> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00107962> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00107962> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00108855> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00108855> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00115807> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00115807> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00115811> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00115811> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00156832> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156832> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00156836> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156836> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00156840> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156840> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00156844> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156844> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00156852> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156852> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00156856> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156856> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00156860> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156860> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00156864> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156864> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00156868> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156868> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00156872> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156872> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00156876> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156876> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00156880> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156880> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00156884> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156884> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKE00156888> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156888> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003014> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003014> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003017> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003017> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003066> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003066> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003091> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003091> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003100> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003100> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003171> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003171> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003257> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003257> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003334> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003334> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003414> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003414> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003502> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003502> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003590> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003590> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003740> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003740> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003772> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003772> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003862> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003862> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKM00003917> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003917> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00015014> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015014> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00015015> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015015> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00015018> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015018> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00015027> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015027> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00015033> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015033> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00015034> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015034> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00015035> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015035> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00015036> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015036> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00015037> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015037> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00015038> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015038> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00015040> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015040> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00015041> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015041> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00015042> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015042> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035034> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035034> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035035> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035035> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035036> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035036> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035046> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035046> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035047> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035047> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035048> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035048> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035049> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035049> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035050> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035050> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035051> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035051> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035052> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035052> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/station/GHCND:UKW00035054> ca_property:hasAddress <http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035054> .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000000000> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UK000000000: address details of station GHCND:UK000000000" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "West Midlands Combined Authority" ;
+    ca_property:postcode "B90" ;
+    ca_property:road "Wildmoor Road" ;
+    ca_property:state "England" ;
+    ca_property:town "Solihull" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000003005> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UK000003005: address details of station GHCND:UK000003005" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Shetland Islands" ;
+    ca_property:natural "Loch of Trebister" ;
+    ca_property:postcode "ZE1 0JF" ;
+    ca_property:road "Nordavatn" ;
+    ca_property:state "Scotland" ;
+    ca_property:suburb "Lerwick" ;
+    ca_property:village "Gulberwick" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000003026> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UK000003026: address details of station GHCND:UK000003026" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Na h-Eileanan Siar" ;
+    ca_property:state "Scotland" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000003162> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UK000003162: address details of station GHCND:UK000003162" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Dumfries and Galloway" ;
+    ca_property:postcode "DG13 0QW" ;
+    ca_property:road "B709" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Eskdalemuir" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000003302> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UK000003302: address details of station GHCND:UK000003302" ;
+    ca_property:aeroway "Sparrowhawk" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Ynys Môn / Isle of Anglesey" ;
+    ca_property:hamlet "Llanfair-yn-Neubwll" ;
+    ca_property:postcode "LL65 3NJ" ;
+    ca_property:road "Minffordd Road" ;
+    ca_property:state "Cymru / Wales" ;
+    ca_property:village "Caergeiliog" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000003808> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UK000003808: address details of station GHCND:UK000003808" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Cornwall" ;
+    ca_property:postcode "TR14 8" ;
+    ca_property:road "Formal Industrial Park" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South West England" ;
+    ca_property:suburb "Camborne" ;
+    ca_property:town "Camborne" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000044841> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UK000044841: address details of station GHCND:UK000044841" ;
+    ca_property:amenity "University of Hull" ;
+    ca_property:city "Hull" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Kingston upon Hull" ;
+    ca_property:postcode "HU5 2DN" ;
+    ca_property:road "Newland Park" ;
+    ca_property:state "England" ;
+    ca_property:state_district "Yorkshire and the Humber" ;
+    ca_property:suburb "Avenues" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000047811> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UK000047811: address details of station GHCND:UK000047811" ;
+    ca_property:amenity "The Royal School Armagh" ;
+    ca_property:city "Armagh" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "County Armagh" ;
+    ca_property:locality "Corporation" ;
+    ca_property:postcode "BT61 9DH" ;
+    ca_property:road "College Hill" ;
+    ca_property:state "Northern Ireland" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000056225> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UK000056225: address details of station GHCND:UK000056225" ;
+    ca_property:city "Oxford" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Oxfordshire" ;
+    ca_property:house_number "5" ;
+    ca_property:postcode "OX2 6RU" ;
+    ca_property:road "Saint Margaret's Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "Walton Manor" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UK000070765> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UK000070765: address details of station GHCND:UK000070765" ;
+    ca_property:building "Nucleus: The Nuclear and Caithness Archives" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Highland" ;
+    ca_property:postcode "KW1 4DS" ;
+    ca_property:road "Wick Airport Road" ;
+    ca_property:state "Scotland" ;
+    ca_property:suburb "Pulteneytown" ;
+    ca_property:town "Wick" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00102158> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00102158: address details of station GHCND:UKE00102158" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Wiltshire" ;
+    ca_property:postcode "SN11 9JJ" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South West England" ;
+    ca_property:suburb "Lyneham and Bradenstoke" ;
+    ca_property:village "Bradenstoke" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105003> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105003: address details of station GHCND:UKE00105003" ;
+    ca_property:city "South Cambridgeshire" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Cambridgeshire" ;
+    ca_property:postcode "CB24 9PX" ;
+    ca_property:road "Villa Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Histon" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105630> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105630: address details of station GHCND:UKE00105630" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Orkney Islands" ;
+    ca_property:isolated_dwelling "Woodside Cottage" ;
+    ca_property:postcode "KW15 1TH" ;
+    ca_property:road "A960" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Tankerness" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105636> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105636: address details of station GHCND:UKE00105636" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Moray" ;
+    ca_property:isolated_dwelling "Cullerne" ;
+    ca_property:neighbourhood "Southside" ;
+    ca_property:postcode "IV36 3UL" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Kinloss" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105648> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105648: address details of station GHCND:UKE00105648" ;
+    ca_property:city "Cambridge" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Cambridgeshire" ;
+    ca_property:leisure "Cambridge University Botanic Garden" ;
+    ca_property:postcode "CB2 1JE" ;
+    ca_property:road "Bateman Mews" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Newtown" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105651> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105651: address details of station GHCND:UKE00105651" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "York" ;
+    ca_property:postcode "YO23 3PE" ;
+    ca_property:road "York Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "Yorkshire and the Humber" ;
+    ca_property:suburb "Askham Richard" ;
+    ca_property:village "Askham Richard" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105657> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105657: address details of station GHCND:UKE00105657" ;
+    ca_property:city "Tunbridge Wells" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Kent" ;
+    ca_property:natural "Great Lake" ;
+    ca_property:postcode "TN17 2SL" ;
+    ca_property:road "Park Lane" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "Goudhurst" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105660> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105660: address details of station GHCND:UKE00105660" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Renfrewshire" ;
+    ca_property:postcode "PA3 2JB" ;
+    ca_property:road "Glen Street" ;
+    ca_property:state "Scotland" ;
+    ca_property:suburb "Shortroods" ;
+    ca_property:town "Paisley" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105669> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105669: address details of station GHCND:UKE00105669" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Ceredigion" ;
+    ca_property:postcode "SY25 6DX" ;
+    ca_property:road "B4574" ;
+    ca_property:state "Cymru / Wales" ;
+    ca_property:village "Pont-rhyd-y-groes" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105675> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105675: address details of station GHCND:UKE00105675" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "North Somerset" ;
+    ca_property:neighbourhood "Oatley Park" ;
+    ca_property:postcode "BS41 9" ;
+    ca_property:road "Fenswood Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South West England" ;
+    ca_property:suburb "Long Ashton" ;
+    ca_property:village "Long Ashton" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105681> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105681: address details of station GHCND:UKE00105681" ;
+    ca_property:aeroway "F1" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "County Antrim" ;
+    ca_property:locality "Seacash" ;
+    ca_property:postcode "BT29 4ZY" ;
+    ca_property:road "Glebe Close" ;
+    ca_property:state "Northern Ireland" ;
+    ca_property:village "Aldergrove" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105856> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105856: address details of station GHCND:UKE00105856" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "South Ayrshire" ;
+    ca_property:hamlet "St Quivox" ;
+    ca_property:postcode "KA6 5HW" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Mossblown" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105857> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105857: address details of station GHCND:UKE00105857" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Dumfries and Galloway" ;
+    ca_property:hamlet "Over Barskeoch" ;
+    ca_property:postcode "DG7" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "St John's Town of Dalry" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105858> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105858: address details of station GHCND:UKE00105858" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Dumfries and Galloway" ;
+    ca_property:hamlet "Kelton" ;
+    ca_property:postcode "DG7 1RY" ;
+    ca_property:road "Old Military Road" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Rhonehouse" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105860> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105860: address details of station GHCND:UKE00105860" ;
+    ca_property:amenity "Newton Rigg College" ;
+    ca_property:city "Eden" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Cumbria" ;
+    ca_property:hamlet "Catterlen" ;
+    ca_property:postcode "CA11 0AE" ;
+    ca_property:road "Newton Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "North West England" ;
+    ca_property:village "Newton Reigny" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105861> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105861: address details of station GHCND:UKE00105861" ;
+    ca_property:amenity "Grizedale Forest Visitor Centre" ;
+    ca_property:city "South Lakeland" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Cumbria" ;
+    ca_property:road "The Courtyard" ;
+    ca_property:state "England" ;
+    ca_property:state_district "North West England" ;
+    ca_property:suburb "Satterthwaite" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105862> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105862: address details of station GHCND:UKE00105862" ;
+    ca_property:city "Preston" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Lancashire" ;
+    ca_property:neighbourhood "Holme Slack" ;
+    ca_property:postcode "PR1 6AD" ;
+    ca_property:road "Blackpool Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "North West England" ;
+    ca_property:suburb "Deepdale" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105863> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105863: address details of station GHCND:UKE00105863" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Flintshire" ;
+    ca_property:postcode "CH5 1SF" ;
+    ca_property:state "Cymru / Wales" ;
+    ca_property:suburb "Sealand" ;
+    ca_property:village "Queensferry" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105864> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105864: address details of station GHCND:UKE00105864" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Denbighshire" ;
+    ca_property:postcode "CH7 5LB" ;
+    ca_property:road "Colomendy OEC" ;
+    ca_property:state "Cymru / Wales" ;
+    ca_property:suburb "Llanferres" ;
+    ca_property:village "Maeshafn" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105865> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105865: address details of station GHCND:UKE00105865" ;
+    ca_property:city "Inverness" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Highland" ;
+    ca_property:postcode "IV1 1AD" ;
+    ca_property:road "Henderson Road" ;
+    ca_property:shop "B&Q" ;
+    ca_property:state "Scotland" ;
+    ca_property:suburb "Longman" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105866> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105866: address details of station GHCND:UKE00105866" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Ceredigion" ;
+    ca_property:postcode "SA43 2DN" ;
+    ca_property:road "Coastal Footpath" ;
+    ca_property:state "Cymru / Wales" ;
+    ca_property:suburb "Aberporth" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105867> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105867: address details of station GHCND:UKE00105867" ;
+    ca_property:amenity "Gogerddan Campus" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Ceredigion" ;
+    ca_property:postcode "SY24 5BW" ;
+    ca_property:road "Gogerddan Trail" ;
+    ca_property:state "Cymru / Wales" ;
+    ca_property:suburb "Tirymynach" ;
+    ca_property:village "Bow Street" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105869> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105869: address details of station GHCND:UKE00105869" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Dorset" ;
+    ca_property:postcode "BH19 1LD" ;
+    ca_property:road "Shore Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South West England" ;
+    ca_property:suburb "Swanage" ;
+    ca_property:town "Swanage" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105870> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105870: address details of station GHCND:UKE00105870" ;
+    ca_property:city "Plymouth" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Plymouth" ;
+    ca_property:postcode "PL9 9XA" ;
+    ca_property:road "Stamford Lane" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South West England" ;
+    ca_property:suburb "Cattedown" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105871> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105871: address details of station GHCND:UKE00105871" ;
+    ca_property:city "South Hams" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Devon" ;
+    ca_property:postcode "TQ7 2QW" ;
+    ca_property:road "Sands Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South West England" ;
+    ca_property:suburb "Slapton" ;
+    ca_property:tourism "Slapton Caravan and Camping Club" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105872> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105872: address details of station GHCND:UKE00105872" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Cornwall" ;
+    ca_property:postcode "TR8 4JZ" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South West England" ;
+    ca_property:suburb "Mawgan-in-Pydar" ;
+    ca_property:village "St. Mawgan" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105873> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105873: address details of station GHCND:UKE00105873" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Cornwall" ;
+    ca_property:postcode "EX23 8" ;
+    ca_property:road "The Crescent" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South West England" ;
+    ca_property:suburb "Bude" ;
+    ca_property:town "Bude" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105874> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105874: address details of station GHCND:UKE00105874" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Aberdeenshire" ;
+    ca_property:hamlet "Auchallater" ;
+    ca_property:neighbourhood "Castleton" ;
+    ca_property:postcode "AB35 5ZS" ;
+    ca_property:road "School Road" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Braemar" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105875> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105875: address details of station GHCND:UKE00105875" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Aberdeenshire" ;
+    ca_property:hamlet "Easter Balmoral" ;
+    ca_property:postcode "AB35 5TB" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Crathie" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105876> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105876: address details of station GHCND:UKE00105876" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "County Down" ;
+    ca_property:locality "Large Park" ;
+    ca_property:state "Northern Ireland" ;
+    ca_property:village "Hillsborough" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105877> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105877: address details of station GHCND:UKE00105877" ;
+    ca_property:amenity "Northern Ireland Assembly Car Park" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "County Down" ;
+    ca_property:postcode "BT4 3SH" ;
+    ca_property:road "Prince of Wales Avenue" ;
+    ca_property:state "Northern Ireland" ;
+    ca_property:suburb "Belmont" ;
+    ca_property:town "Dundonald" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105878> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105878: address details of station GHCND:UKE00105878" ;
+    ca_property:city_district "Church Hill ED" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "County Fermanagh" ;
+    ca_property:road "Glennasheevar Road" ;
+    ca_property:state "Northern Ireland" ;
+    ca_property:suburb "Correl" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105881> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105881: address details of station GHCND:UKE00105881" ;
+    ca_property:aeroway "Aberdeen International Airport" ;
+    ca_property:city "Aberdeen City" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Banffshire" ;
+    ca_property:postcode "AB21 9TX" ;
+    ca_property:road "Dyce Drive" ;
+    ca_property:state "Scotland" ;
+    ca_property:suburb "Bucksburn and Newhills" ;
+    ca_property:town "Dyce" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105882> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105882: address details of station GHCND:UKE00105882" ;
+    ca_property:city "St Asaph" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Conwy" ;
+    ca_property:postcode "LL21 9TU" ;
+    ca_property:state "Cymru / Wales" ;
+    ca_property:suburb "Cerrigydrudion" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105884> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105884: address details of station GHCND:UKE00105884" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Perth and Kinross" ;
+    ca_property:hamlet "Ardtalnaig" ;
+    ca_property:postcode "PH15 2HU" ;
+    ca_property:road "C451" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Acharn" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105885> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105885: address details of station GHCND:UKE00105885" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Perth and Kinross" ;
+    ca_property:hamlet "Faskally" ;
+    ca_property:office "Marine Scotland (Freshwater Laboratory)" ;
+    ca_property:postcode "PH16 5LB" ;
+    ca_property:road "B8019" ;
+    ca_property:state "Scotland" ;
+    ca_property:town "Pitlochry" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105886> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105886: address details of station GHCND:UKE00105886" ;
+    ca_property:aeroway "Leuchars Station" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Fife" ;
+    ca_property:postcode "KY16 0HQ" ;
+    ca_property:road "Norman View" ;
+    ca_property:state "Scotland" ;
+    ca_property:town "Leuchars" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105887> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105887: address details of station GHCND:UKE00105887" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Midlothian" ;
+    ca_property:postcode "EH26 9DS" ;
+    ca_property:road "St James's View" ;
+    ca_property:state "Scotland" ;
+    ca_property:suburb "Broomhill" ;
+    ca_property:town "Penicuik" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105888> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105888: address details of station GHCND:UKE00105888" ;
+    ca_property:city "City of Edinburgh" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:leisure "Royal Botanic Garden Edinburgh" ;
+    ca_property:postcode "EH3 5NS" ;
+    ca_property:road "Inverleith Terrace" ;
+    ca_property:state "Scotland" ;
+    ca_property:suburb "Inverleith" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105889> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105889: address details of station GHCND:UKE00105889" ;
+    ca_property:amenity "EH42 213" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "East Lothian" ;
+    ca_property:postcode "EH42 1AT" ;
+    ca_property:road "North Road" ;
+    ca_property:state "Scotland" ;
+    ca_property:suburb "Belhaven" ;
+    ca_property:town "Dunbar" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105890> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105890: address details of station GHCND:UKE00105890" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Scottish Borders" ;
+    ca_property:hamlet "New Steading" ;
+    ca_property:postcode "EH46 7DF" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Romanno Bridge" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105891> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105891: address details of station GHCND:UKE00105891" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Scottish Borders" ;
+    ca_property:natural "Upper Loch" ;
+    ca_property:postcode "TD7 5EU" ;
+    ca_property:road "Lady’s Walk" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Broadmeadows" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105892> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105892: address details of station GHCND:UKE00105892" ;
+    ca_property:building "Kielder Salmon Centre" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Northumberland" ;
+    ca_property:postcode "NE48 1ER" ;
+    ca_property:road "Forest Drive" ;
+    ca_property:state "England" ;
+    ca_property:state_district "North East England" ;
+    ca_property:suburb "Kielder" ;
+    ca_property:village "Kielder" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105893> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105893: address details of station GHCND:UKE00105893" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Northumberland" ;
+    ca_property:postcode "NE61 3LA" ;
+    ca_property:state "England" ;
+    ca_property:state_district "North East England" ;
+    ca_property:suburb "Hebron" ;
+    ca_property:village "Hebron" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105895> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105895: address details of station GHCND:UKE00105895" ;
+    ca_property:city "East Lindsey" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Lincolnshire" ;
+    ca_property:neighbourhood "Seathorne" ;
+    ca_property:postcode "PE25 1BF" ;
+    ca_property:road "Prince Edward Walk" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East Midlands" ;
+    ca_property:suburb "Skegness" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105897> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105897: address details of station GHCND:UKE00105897" ;
+    ca_property:city "Babergh" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Suffolk" ;
+    ca_property:postcode "CO7 6UJ" ;
+    ca_property:road "Flatford Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "East Bergholt" ;
+    ca_property:tourism "Flatford" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105898> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105898: address details of station GHCND:UKE00105898" ;
+    ca_property:aeroway "Wattisham Airfield" ;
+    ca_property:city "Mid Suffolk" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Suffolk" ;
+    ca_property:postcode "IP7 7RJ" ;
+    ca_property:road "Carters Lane" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Ringshall" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105899> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105899: address details of station GHCND:UKE00105899" ;
+    ca_property:amenity "Ormiston Denes Academy" ;
+    ca_property:city "East Suffolk" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Suffolk" ;
+    ca_property:postcode "NR32 4AH" ;
+    ca_property:road "Ashley Downs" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Lowestoft" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105900> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105900: address details of station GHCND:UKE00105900" ;
+    ca_property:building "Village Hall" ;
+    ca_property:city "Uttlesford" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Essex" ;
+    ca_property:postcode "CM1 4QQ" ;
+    ca_property:road "The Street" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "High Easter" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105901> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105901: address details of station GHCND:UKE00105901" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Essex" ;
+    ca_property:neighbourhood "Westlands" ;
+    ca_property:postcode "CM1 3GA" ;
+    ca_property:road "St John's Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Writtle" ;
+    ca_property:village "Writtle" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105902> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105902: address details of station GHCND:UKE00105902" ;
+    ca_property:city "Craven" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "North Yorkshire" ;
+    ca_property:natural "Malham Tarn" ;
+    ca_property:postcode "BD24 9PT" ;
+    ca_property:road "Henside Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "Yorkshire and the Humber" ;
+    ca_property:suburb "Malham Moor" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105903> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105903: address details of station GHCND:UKE00105903" ;
+    ca_property:amenity "Bandstand" ;
+    ca_property:city "Bradford" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "West Yorkshire" ;
+    ca_property:postcode "BD9 4NN" ;
+    ca_property:road "North Park Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "Yorkshire and the Humber" ;
+    ca_property:suburb "Manningham" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105904> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105904: address details of station GHCND:UKE00105904" ;
+    ca_property:amenity "Sheffield Children's Hospital" ;
+    ca_property:city "Sheffield" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:postcode "S10 2TH" ;
+    ca_property:road "Western Bank" ;
+    ca_property:state "England" ;
+    ca_property:state_district "Yorkshire and the Humber" ;
+    ca_property:suburb "Crookesmoor" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105905> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105905: address details of station GHCND:UKE00105905" ;
+    ca_property:amenity "Magistrates' Court" ;
+    ca_property:city "High Peak" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Derbyshire" ;
+    ca_property:hamlet "Cowdale" ;
+    ca_property:postcode "SK17 6DR" ;
+    ca_property:road "Terrace Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East Midlands" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105906> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105906: address details of station GHCND:UKE00105906" ;
+    ca_property:city "Broxtowe" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Nottinghamshire" ;
+    ca_property:postcode "NG16 1HE" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East Midlands" ;
+    ca_property:village "Greasley CP" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105907> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105907: address details of station GHCND:UKE00105907" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Nottinghamshire" ;
+    ca_property:hamlet "Budby" ;
+    ca_property:postcode "NG20 9PD" ;
+    ca_property:road "Netherfield Lane" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East Midlands" ;
+    ca_property:town "Mansfield" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105908> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105908: address details of station GHCND:UKE00105908" ;
+    ca_property:city "Charnwood" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Leicestershire" ;
+    ca_property:postcode "LE6 0HB" ;
+    ca_property:road "Bradgate Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East Midlands" ;
+    ca_property:suburb "Anstey" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105909> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105909: address details of station GHCND:UKE00105909" ;
+    ca_property:amenity "Warwick University Wellesbourne Campus School of Life Sciences" ;
+    ca_property:city "Stratford-on-Avon" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Warwickshire" ;
+    ca_property:postcode "CV35 9EY" ;
+    ca_property:road "A429" ;
+    ca_property:state "England" ;
+    ca_property:state_district "West Midlands" ;
+    ca_property:suburb "Charlecote CP" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105910> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105910: address details of station GHCND:UKE00105910" ;
+    ca_property:amenity "Keele University" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Staffordshire" ;
+    ca_property:postcode "ST5 5BG" ;
+    ca_property:road "Keele Road" ;
+    ca_property:state "England" ;
+    ca_property:suburb "Silverdale" ;
+    ca_property:town "Newcastle-under-Lyme" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105911> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105911: address details of station GHCND:UKE00105911" ;
+    ca_property:building "1017 (Malvern) Squadron Air Cadets" ;
+    ca_property:city "Malvern Hills" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Worcestershire" ;
+    ca_property:postcode "WR14 2QN" ;
+    ca_property:road "Pickersleigh Road" ;
+    ca_property:state "England" ;
+    ca_property:suburb "Malvern" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105912> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105912: address details of station GHCND:UKE00105912" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "West Midlands Combined Authority" ;
+    ca_property:house_number "39" ;
+    ca_property:postcode "B62" ;
+    ca_property:road "St Kenelms Avenue" ;
+    ca_property:state "England" ;
+    ca_property:town "Dudley" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105913> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105913: address details of station GHCND:UKE00105913" ;
+    ca_property:building "Anancaun Field Station" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Highland" ;
+    ca_property:hamlet "Taagan" ;
+    ca_property:postcode "IV22 2PD" ;
+    ca_property:road "A832" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Kinlochewe" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105914> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105914: address details of station GHCND:UKE00105914" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Herefordshire" ;
+    ca_property:postcode "HR5 3JD" ;
+    ca_property:state "England" ;
+    ca_property:suburb "Lyonshall" ;
+    ca_property:village "Lyonshall" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105915> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105915: address details of station GHCND:UKE00105915" ;
+    ca_property:city "London" ;
+    ca_property:city_district "London Borough of Barking and Dagenham" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:postcode "RM7 0YQ" ;
+    ca_property:road "Jasmine Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "Greater London" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105917> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105917: address details of station GHCND:UKE00105917" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Kent" ;
+    ca_property:postcode "TN25 5BW" ;
+    ca_property:road "North Downs Way" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "Wye with Hinxhill" ;
+    ca_property:town "Ashford" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105918> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105918: address details of station GHCND:UKE00105918" ;
+    ca_property:city "Thanet" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Kent" ;
+    ca_property:postcode "CT12 5BU" ;
+    ca_property:road "Spitfire Way" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "Minster" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105921> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105921: address details of station GHCND:UKE00105921" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "East Sussex" ;
+    ca_property:neighbourhood "America Ground" ;
+    ca_property:postcode "TN34 1RA" ;
+    ca_property:road "Bohemia Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "Cuckoo Hill" ;
+    ca_property:town "Hastings" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105922> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105922: address details of station GHCND:UKE00105922" ;
+    ca_property:amenity "Centre for Ecology and Hydrology" ;
+    ca_property:city "South Oxfordshire" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Oxfordshire" ;
+    ca_property:postcode "OX10 8BB" ;
+    ca_property:road "Benson Lane" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "Crowmarsh" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105923> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105923: address details of station GHCND:UKE00105923" ;
+    ca_property:aeroway "Bournemouth Airport" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Bournemouth, Christchurch and Poole" ;
+    ca_property:hamlet "Hurn" ;
+    ca_property:postcode "BH23 6AA" ;
+    ca_property:road "Pussex Lane" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South West England" ;
+    ca_property:village "Hurn" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105924> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105924: address details of station GHCND:UKE00105924" ;
+    ca_property:city "New Forest" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Hampshire" ;
+    ca_property:postcode "SO41 0JD" ;
+    ca_property:road "Milford Road" ;
+    ca_property:shop "Otter Nurseries" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "Hordle" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105925> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105925: address details of station GHCND:UKE00105925" ;
+    ca_property:city "Test Valley" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Hampshire" ;
+    ca_property:postcode "SO20 6EN" ;
+    ca_property:road "A30" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "Stockbridge" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105927> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105927: address details of station GHCND:UKE00105927" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Kent" ;
+    ca_property:postcode "TN25 4JN" ;
+    ca_property:road "Westwell Lane" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "Westwell" ;
+    ca_property:town "Ashford" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105929> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105929: address details of station GHCND:UKE00105929" ;
+    ca_property:building "Power House" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Highland" ;
+    ca_property:postcode "PH43 4RR" ;
+    ca_property:road "Drochaid Sheorais" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Kinloch" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105930> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105930: address details of station GHCND:UKE00105930" ;
+    ca_property:building "Benmore garden office building" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Argyll and Bute" ;
+    ca_property:hamlet "Rashfield" ;
+    ca_property:postcode "PA23 8QU" ;
+    ca_property:road "Redwood tree alley" ;
+    ca_property:state "Scotland" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105931> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105931: address details of station GHCND:UKE00105931" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Argyll and Bute" ;
+    ca_property:isolated_dwelling "Duneastein" ;
+    ca_property:postcode "PA20 0JY" ;
+    ca_property:road "Westland Road" ;
+    ca_property:state "Scotland" ;
+    ca_property:town "Rothesay" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105932> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105932: address details of station GHCND:UKE00105932" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "South Lanarkshire" ;
+    ca_property:postcode "ML12 6YQ" ;
+    ca_property:road "Horners Place" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Leadhills" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00105933> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00105933: address details of station GHCND:UKE00105933" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "South Lanarkshire" ;
+    ca_property:hamlet "Eastshield" ;
+    ca_property:leisure "Carnwath Golf Course" ;
+    ca_property:postcode "ML11 8RS" ;
+    ca_property:road "A70" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "West End" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00107640> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00107640: address details of station GHCND:UKE00107640" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Argyll and Bute" ;
+    ca_property:hamlet "Kenovay" ;
+    ca_property:postcode "PA77 6UT" ;
+    ca_property:state "Scotland" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00107962> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00107962: address details of station GHCND:UKE00107962" ;
+    ca_property:city "South Somerset" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Somerset" ;
+    ca_property:military "RNAS Yeovilton (HMS Heron)" ;
+    ca_property:postcode "BA22 8HT" ;
+    ca_property:road "Taranto Way" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South West England" ;
+    ca_property:suburb "Yeovilton" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00108855> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00108855: address details of station GHCND:UKE00108855" ;
+    ca_property:city "King's Lynn and West Norfolk" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Norfolk" ;
+    ca_property:postcode "PE34 4PY" ;
+    ca_property:road "Lynn Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Terrington St. Clement" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00115807> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00115807: address details of station GHCND:UKE00115807" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Aberdeenshire" ;
+    ca_property:hamlet "Auchallater" ;
+    ca_property:neighbourhood "Castleton" ;
+    ca_property:postcode "AB35 5YR" ;
+    ca_property:road "A93" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Braemar" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00115811> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00115811: address details of station GHCND:UKE00115811" ;
+    ca_property:amenity "Lowestoft North Community Fire Station" ;
+    ca_property:city "East Suffolk" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Suffolk" ;
+    ca_property:postcode "NR32 2PT" ;
+    ca_property:road "Normanston Drive" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Lowestoft" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156832> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00156832: address details of station GHCND:UKE00156832" ;
+    ca_property:building "Blackpool ATC" ;
+    ca_property:city "Fylde" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Lancashire" ;
+    ca_property:postcode "FY4 2BF" ;
+    ca_property:road "Squires Gate Lane" ;
+    ca_property:state "England" ;
+    ca_property:state_district "North West England" ;
+    ca_property:suburb "Saint Anne's on the Sea" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156836> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00156836: address details of station GHCND:UKE00156836" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Wiltshire" ;
+    ca_property:postcode "SP4 0JF" ;
+    ca_property:road "North Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South West England" ;
+    ca_property:suburb "Amesbury" ;
+    ca_property:town "Amesbury" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156840> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00156840: address details of station GHCND:UKE00156840" ;
+    ca_property:city "Carlisle" ;
+    ca_property:commercial "Kingmoor Business Park" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Cumbria" ;
+    ca_property:postcode "CA6 4SN" ;
+    ca_property:road "Baron Way" ;
+    ca_property:state "England" ;
+    ca_property:state_district "North West England" ;
+    ca_property:suburb "Kingmoor" ;
+    ca_property:village "Harker" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156844> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00156844: address details of station GHCND:UKE00156844" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "North Yorkshire" ;
+    ca_property:postcode "YO8 3UA" ;
+    ca_property:state "England" ;
+    ca_property:state_district "Yorkshire and the Humber" ;
+    ca_property:suburb "Cawood" ;
+    ca_property:town "Selby" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156852> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00156852: address details of station GHCND:UKE00156852" ;
+    ca_property:city "Durham" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "County Durham" ;
+    ca_property:neighbourhood "Whitesmocks" ;
+    ca_property:postcode "DH1 3PP" ;
+    ca_property:road "Potters Bank" ;
+    ca_property:state "England" ;
+    ca_property:state_district "North East England" ;
+    ca_property:suburb "City of Durham" ;
+    ca_property:tourism "Observatory Hill" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156856> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00156856: address details of station GHCND:UKE00156856" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Wiltshire" ;
+    ca_property:postcode "SN15 2PB" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South West England" ;
+    ca_property:suburb "Lacock" ;
+    ca_property:village "Lacock" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156860> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00156860: address details of station GHCND:UKE00156860" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Moray" ;
+    ca_property:postcode "IV31 6NU" ;
+    ca_property:state "Scotland" ;
+    ca_property:town "Lossiemouth" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156864> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00156864: address details of station GHCND:UKE00156864" ;
+    ca_property:city "East Cambridgeshire" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Cambridgeshire" ;
+    ca_property:postcode "CB6 3FN" ;
+    ca_property:road "A10" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Ely" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156868> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00156868: address details of station GHCND:UKE00156868" ;
+    ca_property:amenity "Morecambe Town Hall" ;
+    ca_property:city "Lancaster" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Lancashire" ;
+    ca_property:neighbourhood "Poulton-le-Sands" ;
+    ca_property:postcode "LA4 5AF" ;
+    ca_property:road "Marine Road East" ;
+    ca_property:state "England" ;
+    ca_property:state_district "North West England" ;
+    ca_property:suburb "Morecambe" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156872> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00156872: address details of station GHCND:UKE00156872" ;
+    ca_property:amenity "Pershore College part of Warwickshire College" ;
+    ca_property:city "Wychavon" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Worcestershire" ;
+    ca_property:postcode "WR10 3JP" ;
+    ca_property:road "Avon Bank" ;
+    ca_property:state "England" ;
+    ca_property:suburb "Wick" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156876> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00156876: address details of station GHCND:UKE00156876" ;
+    ca_property:city "Rushcliffe" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Nottinghamshire" ;
+    ca_property:postcode "LE12 5RY" ;
+    ca_property:road "Melton Lane" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East Midlands" ;
+    ca_property:suburb "Kingston on Soar" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156880> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00156880: address details of station GHCND:UKE00156880" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Isle of Wight" ;
+    ca_property:man_made "St. Catherine's Lighthouse" ;
+    ca_property:postcode "PO38 2NP" ;
+    ca_property:road "Sandrock Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "Niton and Whitwell" ;
+    ca_property:village "Niton" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156884> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00156884: address details of station GHCND:UKE00156884" ;
+    ca_property:city "Tonbridge and Malling" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Kent" ;
+    ca_property:postcode "ME20 7HE" ;
+    ca_property:road "Bull Lane" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "Aylesford" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKE00156888> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKE00156888: address details of station GHCND:UKE00156888" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Essex" ;
+    ca_property:farmyard "Priestfields Farm" ;
+    ca_property:natural "Hunt's Wood" ;
+    ca_property:postcode "CO9 3EG" ;
+    ca_property:road "Kirby Hall Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Castle Hedingham" ;
+    ca_property:town "Braintree" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003014> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKM00003014: address details of station GHCND:UKM00003014" ;
+    ca_property:building "South Biggins" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Shetland Islands" ;
+    ca_property:state "Scotland" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003017> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKM00003017: address details of station GHCND:UKM00003017" ;
+    ca_property:aeroway "Kirkwall Airport" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Orkney Islands" ;
+    ca_property:isolated_dwelling "Woodside Cottage" ;
+    ca_property:postcode "KW15 1TH" ;
+    ca_property:road "A960" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Tankerness" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003066> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKM00003066: address details of station GHCND:UKM00003066" ;
+    ca_property:aeroway "Kinloss Barracks" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Moray" ;
+    ca_property:hamlet "Findhorn Ecovillage" ;
+    ca_property:postcode "IV36 3TX" ;
+    ca_property:road "B9011" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Kinloss" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003091> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKM00003091: address details of station GHCND:UKM00003091" ;
+    ca_property:city "Aberdeen City" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Banffshire" ;
+    ca_property:postcode "AB21 9SQ" ;
+    ca_property:state "Scotland" ;
+    ca_property:suburb "Bucksburn and Newhills" ;
+    ca_property:town "Dyce" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003100> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKM00003100: address details of station GHCND:UKM00003100" ;
+    ca_property:aeroway "Tiree Airport" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Argyll and Bute" ;
+    ca_property:hamlet "Baugh" ;
+    ca_property:postcode "PA77 6UW" ;
+    ca_property:road "B8065" ;
+    ca_property:state "Scotland" ;
+    ca_property:village "Scarinish" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003171> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKM00003171: address details of station GHCND:UKM00003171" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Fife" ;
+    ca_property:postcode "KY16 0JA" ;
+    ca_property:state "Scotland" ;
+    ca_property:town "Leuchars" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003257> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKM00003257: address details of station GHCND:UKM00003257" ;
+    ca_property:city "Hambleton" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "North Yorkshire" ;
+    ca_property:state "England" ;
+    ca_property:state_district "Yorkshire and the Humber" ;
+    ca_property:suburb "Exelby, Leeming and Londonderry" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003334> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKM00003334: address details of station GHCND:UKM00003334" ;
+    ca_property:aeroway "Manchester Airport" ;
+    ca_property:city "Manchester" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Greater Manchester" ;
+    ca_property:industrial "World Logistics Hub" ;
+    ca_property:postcode "M90 1QX" ;
+    ca_property:road "Sunbank Lane" ;
+    ca_property:state "England" ;
+    ca_property:state_district "North West England" ;
+    ca_property:suburb "Ringway" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003414> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKM00003414: address details of station GHCND:UKM00003414" ;
+    ca_property:aeroway "RAF Shawbury" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Shropshire" ;
+    ca_property:postcode "SY4 4NH" ;
+    ca_property:road "A53" ;
+    ca_property:state "England" ;
+    ca_property:state_district "West Midlands" ;
+    ca_property:suburb "Shawbury" ;
+    ca_property:village "Shawbury" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003502> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKM00003502: address details of station GHCND:UKM00003502" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Ceredigion" ;
+    ca_property:postcode "SA43 2DH" ;
+    ca_property:road "Coastal Footpath" ;
+    ca_property:state "Cymru / Wales" ;
+    ca_property:suburb "Aberporth" ;
+    ca_property:village "Aberporth" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003590> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKM00003590: address details of station GHCND:UKM00003590" ;
+    ca_property:aeroway "Wattisham Airfield" ;
+    ca_property:city "Mid Suffolk" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Suffolk" ;
+    ca_property:postcode "IP7 7RJ" ;
+    ca_property:road "Carters Lane" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Ringshall" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003740> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKM00003740: address details of station GHCND:UKM00003740" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Wiltshire" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South West England" ;
+    ca_property:suburb "Lyneham and Bradenstoke" ;
+    ca_property:village "Bradenstoke" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003772> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKM00003772: address details of station GHCND:UKM00003772" ;
+    ca_property:amenity "LHR Terminal 2 Business Parking" ;
+    ca_property:city "London" ;
+    ca_property:city_district "London Borough of Hillingdon" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:postcode "TW6 2FG" ;
+    ca_property:road "Northern Perimeter Road West" ;
+    ca_property:state "England" ;
+    ca_property:state_district "Greater London" ;
+    ca_property:suburb "Harmondsworth" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003862> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKM00003862: address details of station GHCND:UKM00003862" ;
+    ca_property:aeroway "Bournemouth Airport" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Bournemouth, Christchurch and Poole" ;
+    ca_property:hamlet "Hurn" ;
+    ca_property:postcode "BH23 6AA" ;
+    ca_property:road "Pussex Lane" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South West England" ;
+    ca_property:village "Hurn" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKM00003917> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKM00003917: address details of station GHCND:UKM00003917" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "County Antrim" ;
+    ca_property:locality "British" ;
+    ca_property:state "Northern Ireland" ;
+    ca_property:village "Aldergrove" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015014> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00015014: address details of station GHCND:UKW00015014" ;
+    ca_property:building "Fire hall" ;
+    ca_property:city "Huntingdonshire" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Cambridgeshire" ;
+    ca_property:postcode "PE28 5LU" ;
+    ca_property:road "Cockbrook Lane" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Brington and Molesworth" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015015> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00015015: address details of station GHCND:UKW00015015" ;
+    ca_property:city "East Northamptonshire" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Northamptonshire" ;
+    ca_property:natural "Hare Spinney" ;
+    ca_property:postcode "NN9 6AU" ;
+    ca_property:road "Chelveston Crescent" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East Midlands" ;
+    ca_property:suburb "Chelveston cum Caldecott" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015018> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00015018: address details of station GHCND:UKW00015018" ;
+    ca_property:city "South Cambridgeshire" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Cambridgeshire" ;
+    ca_property:postcode "SG8 0AB" ;
+    ca_property:road "A1198" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Whaddon" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015027> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00015027: address details of station GHCND:UKW00015027" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Warrington" ;
+    ca_property:postcode "WA5 2LD" ;
+    ca_property:road "Ash Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "North West England" ;
+    ca_property:suburb "Penketh" ;
+    ca_property:village "Moore" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015033> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00015033: address details of station GHCND:UKW00015033" ;
+    ca_property:city "Huntingdonshire" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Cambridgeshire" ;
+    ca_property:postcode "PE28 4DE" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "The Stukeleys" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015034> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00015034: address details of station GHCND:UKW00015034" ;
+    ca_property:city "Huntingdonshire" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Cambridgeshire" ;
+    ca_property:postcode "PE28 2DR" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Wyton-on-the-Hill" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015035> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00015035: address details of station GHCND:UKW00015035" ;
+    ca_property:city "North Kesteven" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Lincolnshire" ;
+    ca_property:leisure "RAF Waddington Golf Club" ;
+    ca_property:postcode "LN5 9FG" ;
+    ca_property:road "Sleaford Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East Midlands" ;
+    ca_property:suburb "Waddington" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015036> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00015036: address details of station GHCND:UKW00015036" ;
+    ca_property:aeroway "RAF Brize Norton" ;
+    ca_property:city "West Oxfordshire" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Oxfordshire" ;
+    ca_property:postcode "OX18 2PU" ;
+    ca_property:road "Main Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "Alvescot" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015037> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00015037: address details of station GHCND:UKW00015037" ;
+    ca_property:city "Cherwell" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Oxfordshire" ;
+    ca_property:house_number "64" ;
+    ca_property:postcode "OX25 5AH" ;
+    ca_property:road "Hampden Square" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "Heyford Park" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015038> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00015038: address details of station GHCND:UKW00015038" ;
+    ca_property:aeroway "RAF Fairford" ;
+    ca_property:city "Cotswold" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Gloucestershire" ;
+    ca_property:postcode "GL7 4DG" ;
+    ca_property:road "Ohio Avenue" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South West England" ;
+    ca_property:suburb "Kempsford" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015040> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00015040: address details of station GHCND:UKW00015040" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "West Berkshire" ;
+    ca_property:postcode "RG19 8DB" ;
+    ca_property:road "Bury's Bank Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "Greenham" ;
+    ca_property:tourism "Greenham Common Car Park" ;
+    ca_property:village "Greenham" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015041> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00015041: address details of station GHCND:UKW00015041" ;
+    ca_property:city "West Lindsey" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Lincolnshire" ;
+    ca_property:postcode "DN21 5LZ" ;
+    ca_property:road "High Street" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East Midlands" ;
+    ca_property:suburb "Kexby CP" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00015042> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00015042: address details of station GHCND:UKW00015042" ;
+    ca_property:city "Harborough" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Leicestershire" ;
+    ca_property:postcode "LE17 6JG" ;
+    ca_property:road "Kilworth Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East Midlands" ;
+    ca_property:suburb "Kimcote and Walton" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035034> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00035034: address details of station GHCND:UKW00035034" ;
+    ca_property:city "West Suffolk" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Suffolk" ;
+    ca_property:postcode "IP27 9BU" ;
+    ca_property:road "Brandon Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Lakenheath" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035035> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00035035: address details of station GHCND:UKW00035035" ;
+    ca_property:city "King's Lynn and West Norfolk" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Norfolk" ;
+    ca_property:military "RAF Marham" ;
+    ca_property:postcode "PE33 9LP" ;
+    ca_property:road "Ash Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Marham" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035036> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00035036: address details of station GHCND:UKW00035036" ;
+    ca_property:aeroway "RAF Sculthorpe" ;
+    ca_property:city "North Norfolk" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Norfolk" ;
+    ca_property:postcode "PE31 6TD" ;
+    ca_property:road "Fakenham Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Tattersett" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035046> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00035046: address details of station GHCND:UKW00035046" ;
+    ca_property:aeroway "RAF Mildenhall" ;
+    ca_property:city "West Suffolk" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Suffolk" ;
+    ca_property:postcode "IP28 8LY" ;
+    ca_property:road "MIldenhall Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Beck Row, Holywell Row and Kenny Hill" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035047> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00035047: address details of station GHCND:UKW00035047" ;
+    ca_property:city "Thanet" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Kent" ;
+    ca_property:postcode "CT12 5AU" ;
+    ca_property:road "Manston Court Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "Manston" ;
+    ca_property:tourism "Manston Caravan & Camping Park" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035048> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00035048: address details of station GHCND:UKW00035048" ;
+    ca_property:city "East Suffolk" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Suffolk" ;
+    ca_property:industrial "Bentwaters Parks" ;
+    ca_property:postcode "IP12 2TZ" ;
+    ca_property:road "Thompson Drive" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Rendlesham" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035049> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00035049: address details of station GHCND:UKW00035049" ;
+    ca_property:city "West Suffolk" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Suffolk" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Stanton" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035050> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00035050: address details of station GHCND:UKW00035050" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Essex" ;
+    ca_property:postcode "CM7 4BB" ;
+    ca_property:road "Scott Avenue" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Finchingfield" ;
+    ca_property:town "Braintree" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035051> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00035051: address details of station GHCND:UKW00035051" ;
+    ca_property:city "East Suffolk" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Suffolk" ;
+    ca_property:postcode "IP12 3LZ" ;
+    ca_property:road "Ripon Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East of England" ;
+    ca_property:suburb "Sutton Heath" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035052> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00035052: address details of station GHCND:UKW00035052" ;
+    ca_property:city "East Lindsey" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Lincolnshire" ;
+    ca_property:postcode "PE23 4BT" ;
+    ca_property:road "Main Road" ;
+    ca_property:state "England" ;
+    ca_property:state_district "East Midlands" ;
+    ca_property:suburb "East Kirkby" ;
+    ca_property:tourism "Signals Square" .
+
+<http://jresearch.ucd.ie/climate-kg/resource/address/GHCND:UKW00035054> a ca_class:Address ;
+    rdfs:label "Address_GHCND:UKW00035054: address details of station GHCND:UKW00035054" ;
+    ca_property:city "Tonbridge and Malling" ;
+    ca_property:country "United Kingdom" ;
+    ca_property:country_code "gb" ;
+    ca_property:county "Kent" ;
+    ca_property:postcode "ME19 6PJ" ;
+    ca_property:road "Windmill Lane West" ;
+    ca_property:state "England" ;
+    ca_property:state_district "South East" ;
+    ca_property:suburb "West Malling" .
+

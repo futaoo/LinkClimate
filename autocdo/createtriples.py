@@ -161,7 +161,7 @@ def upload_data():
             f.write(triple_file)
         multipart_data = encoder.MultipartEncoder(fields={'file': ('data.ttl', open('data.ttl', 'rb'), 'text/plain')})
         headers = {'Content-Type': multipart_data.content_type}
-        requests.post('http://jresearch.ucd.ie/kg/climate/data', auth=('admin','KG@ucd.ie'), data=multipart_data, headers=headers)
+        requests.post('http://jresearch.ucd.ie/kg/climate/data', auth=('***','***'), data=multipart_data, headers=headers)
         print('{} to {} : Upload Completed!!'.format(time_interval['startdate'], time_interval['enddate']))
 
 

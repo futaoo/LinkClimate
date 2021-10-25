@@ -164,43 +164,44 @@ def upload_data():
         requests.post('http://jresearch.ucd.ie/kg/climate/data', auth=('***','***'), data=multipart_data, headers=headers)
         print('{} to {} : Upload Completed!!'.format(time_interval['startdate'], time_interval['enddate']))
 
+        
+# functions to retrieve and map openstreetmap data        
+def create_osm():
+    rCDO = CDOWeb('https://www.ncdc.noaa.gov/cdo-web/api/v2', 'dSPQHTPvpQGQvrlBvaCaxwbFjLSFANlC')
+    rosm = OSMWeb('https://nominatim.openstreetmap.org')
+    o = CANOAAV2()
+    stations = []
+    triples =[]
+    cntry_ids = ['FIPS:EI','FIPS:UK']
+    for id in cntry_ids:
+        stations += fetch_all_data(r=rCDO, endpoint='/stations', locationid=id)
+    i = 0
+    for station in stations:
+        re = rosm.requestfrom('/reverse', lat=station['latitude'], lon=station['longitude'], format='jsonv2')
+        station['address'] = re['address']
+        station['tags'] = {}
+        if 'country' in re['address']:
+           cntryname = re['address']['country']
+           cntry_re = rosm.requestfrom('/search', country=cntryname, format='jsonv2', extratags=1, limit=1)
+           station['tags']['country'] = cntry_re[0]['extratags']
+           if 'city' in re['address']:
+              cityname = re['address']['city']
+              city_re = rosm.requestfrom('/search',country=cntryname, city=cityname, format='jsonv2', extratags=1, limit=1)
+              station['tags']['city'] = city_re[0]['extratags']
+           if 'county' in re['address']:
+              countyname = re['address']['county']
+              county_re = rosm.requestfrom('/search',country=cntryname, county=countyname, format='jsonv2', extratags=1, limit=1)
+              station['tags']['county'] = county_re[0]['extratags']
+    triples = o.create_triples_from_json(json_results=stations, mapflag='address')
+    ograph = o.graph
+    for triple in triples:
+        ograph.add(triple)
+    triple_file = ograph.serialize(format="turtle").decode("utf-8")
+    with open('tags.ttl','w') as f:
+            f.write(triple_file)
 
+##uncomment this to run background scheduler
 # scheduler = BackgroundScheduler({'apscheduler.timezone': 'Asia/Shanghai'}, daemon=False)
 # scheduler.add_job(upload_data, 'interval', weeks=1, start_date='2020-10-22 10:28:00', id='upload_triples')
 # scheduler.start()
-upload_data()
-
-# rCDO = CDOWeb('https://www.ncdc.noaa.gov/cdo-web/api/v2', 'dSPQHTPvpQGQvrlBvaCaxwbFjLSFANlC')
-# rosm = OSMWeb('https://nominatim.openstreetmap.org')
-# o = CANOAAV2()
-# stations = []
-# triples =[]
-# cntry_ids = ['FIPS:EI','FIPS:UK']
-# for id in cntry_ids:
-#     stations += fetch_all_data(r=rCDO, endpoint='/stations', locationid=id)
-# i = 0
-# for station in stations:
-#     re = rosm.requestfrom('/reverse', lat=station['latitude'], lon=station['longitude'], format='jsonv2')
-#     station['address'] = re['address']
-#     station['tags'] = {}
-#     if 'country' in re['address']:
-#        cntryname = re['address']['country']
-#        cntry_re = rosm.requestfrom('/search', country=cntryname, format='jsonv2', extratags=1, limit=1)
-#        station['tags']['country'] = cntry_re[0]['extratags']
-#        if 'city' in re['address']:
-#           cityname = re['address']['city']
-#           city_re = rosm.requestfrom('/search',country=cntryname, city=cityname, format='jsonv2', extratags=1, limit=1)
-#           station['tags']['city'] = city_re[0]['extratags']
-#        if 'county' in re['address']:
-#           countyname = re['address']['county']
-#           county_re = rosm.requestfrom('/search',country=cntryname, county=countyname, format='jsonv2', extratags=1, limit=1)
-#           station['tags']['county'] = county_re[0]['extratags']
-# triples = o.create_triples_from_json(json_results=stations, mapflag='address')
-# ograph = o.graph
-# for triple in triples:
-#     ograph.add(triple)
-# triple_file = ograph.serialize(format="turtle").decode("utf-8")
-# with open('tags.ttl','w') as f:
-#         f.write(triple_file)
-
-
+# upload_data()

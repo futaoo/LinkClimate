@@ -11,7 +11,7 @@ The Python code for the KG construction workflow is kept mostly in the subdirect
   - **Class** `CANOAAV2` is the CA ontology class which necessitates the definition of a set of semantic assertions that will be utilized in the knowledge model, as well as providing the necessary methods for mapping [NOAA CDO APIs](https://www.ncdc.noaa.gov/cdo-web/webservices/v2) data to RDF data..
   - **Class** `CDOWEB` is to configure the HTTP request to NOAA CDO APIs.
   - **Class** `OSM` is used to configure the HTTP request to [OpenStreetMap APIs](https://nominatim.openstreetmap.org). To run this more stably, we set up **HTTPAdapter sessions** allowing to retry the requests without loss of responses when failures occur due to high volume of requests.
-- `autocdo/api-createtriples.py` reuse the class modules in  `autocdo/ca-ontology.py` so as to create the knowledge graph by following the steps : 1) fetching NOAA CDO data, 2) mapping CDO data to RDF data, 3) saving RDF data to our triplestore and 4) the task scheduler implementation doing the aboved jobs periodically.
+- `autocdo/api-createtriples.py` reuses the class modules in  `autocdo/ca-ontology.py` so as to create the knowledge graph by following the steps : 1) fetching NOAA CDO data, 2) mapping CDO data to RDF data, 3) saving RDF data to our triplestore and 4) the task scheduler implementation doing the aboved jobs periodically.
 
 ## Understanding the output data
 We provided some pieces of serialized RDF files in the subdirectory `output` with a supplementary instructions to faciliate the better comprehension on the workflow.

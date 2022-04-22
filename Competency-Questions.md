@@ -1,6 +1,6 @@
 Competency Questions (CQs)
 
-- Where are the sensors situated in a particular city?
+- Where are the sensors situated in a particular administrative region?
     
     <aside>
     💡 **Q1:** select out the sensors in the city

@@ -1,6 +1,6 @@
 Competency Questions (CQs)
 
-- Where are the sensors situated in a particular administrative region?
+- Where are all the sensors situated in a particular administrative region?
     
     <aside>
     💡 **Q1:** select out the sensors in the city
@@ -79,7 +79,7 @@ Competency Questions (CQs)
     </aside>
     
 
-- How can a time series for a single climatic variable be created?
+- How can a time series for a single climatic variable be retrieved?
     
     <aside>
     💡 **Q1**: Time series created for average temperature.
@@ -89,7 +89,7 @@ Competency Questions (CQs)
     </aside>
     
 
-- How can a time series for a number of different climatic variables be created?
+- How can a time series for a number of different climatic variables be retrieved?
     
     <aside>
     💡 **Q1**: Time series for average temperature and precipitation monitored by a sensor

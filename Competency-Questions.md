@@ -35,7 +35,7 @@ Competency Questions (CQs)
     
      
     
-- What stations are accessible within a given area of interest?
+- Which stations fall inside a certain range of latitude and longitude coordinates?
     
     <aside>
     💡 **Q1:** select the lat/long pairs for all of the stations

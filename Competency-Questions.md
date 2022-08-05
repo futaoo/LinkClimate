@@ -42,7 +42,7 @@ Competency Questions (CQs)
     
     [Apache Jena Fuseki - inspect dataset](http://jresearch.ucd.ie/kg/dataset.html?tab=query&ds=/climate#query=BASE+%3Chttp%3A%2F%2Fjresearch.ucd.ie%2Fclimate-kg%2F%3E%0APREFIX+w3geo%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2003%2F01%2Fgeo%2Fwgs84_pos%23%3E%0A%0A%0A%0ASELECT+%3Fsensors+%3Flat+%3Flong+WHERE+%7B+%0A++%3Fsensors+w3geo%3Alat+%3Flat%3B%0A+++++++++++w3geo%3Along+%3Flong+.++++++++++++++++++++++++++++++++++++%0A%7D%0A%0A+++++++++++++++++++++++%0A+)
     
-    **Additional answer:** For geographical data representation, LinkClimate knowledge graph already includes a lat/long coordinate system which can be queried using Q1 likewise query. Locate accessible stations within a specified region of interest by interacting with the GeoSPARQL engine, which automatically generates the results behind declarative queries.
+    **Additional answer:** For geographical data representation, LinkClimate knowledge graph already includes a lat/long coordinate system which can be queried using Q1 likewise query. TODO:Locate accessible stations within a specified region of interest by interacting with the GeoSPARQL engine, which automatically generates the results behind declarative queries.
     
     </aside>
     

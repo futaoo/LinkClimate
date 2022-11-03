@@ -1,7 +1,7 @@
 # LinkClimate: An Interoperable Knowledge Graph Platform for Climate Data
 With the spirit of reproducible research, this repository includes a complete collection of codes required to generate the results and the diagrams presented in the paper:
 
-> J. Wu, F. Orlandi, D. O'Sullivan, S. Dev, Link Climate: An Interoperable Knowledge Graph Platform for Climate Data, *Under Review*.
+> J. Wu, F. Orlandi, D. O'Sullivan, S. Dev, Link Climate: An Interoperable Knowledge Graph Platform for Climate Data, *Computers and Geosciences*, 2022.
 
 ## Introduction to the Code Usage
 This repository contains the implementation of the workflow components described in the paper, namely defining the **Climate Analysis (CA)** ontology, retrieving [NOAA Climate Data Online](https://www.ncdc.noaa.gov/cdo-web/) (CDO) with integration of [OpenStreetMap](https://www.openstreetmap.org/) geographical information, mapping the enriched CDO data to RDF data, saving RDF data to our triplestore, and a task scheduler that performs the aforementioned tasks on a periodic basis.
